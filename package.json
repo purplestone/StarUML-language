@@ -1,0 +1,16 @@
+{
+  "name": "staruml-language",
+  "version": "0.1.6.0.1.0",
+  "description": "Zh-cn language package insert starUML, 中文汉化版本语言翻译包 ",
+  "main": "warp.js",
+  "scripts": {
+    "start": "npm i & node warp.js",
+    "warp": "node warp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/asar": "^3.2.8"
+  }
+}
