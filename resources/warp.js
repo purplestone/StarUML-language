@@ -49,7 +49,7 @@ async function main() {
 
 function warpFileContent(filePath, replaceArr) {
 	var sign = '/*language-had-insert*/';
-	var sFilePath = filePath.replaceAll('/', path.sep);
+	var sFilePath = filePath.replace(/\//g, path.sep);
 	var sFile = fs.readFileSync(filePath).toString();
 	if (~sFile.indexOf(sign)) {
 		return;
@@ -95,7 +95,7 @@ var sLoadJsonFiles = `
 var sMethod = `
 _langPackageWarp () {
 	var _fun = function ([path,v], cb) {console.log([path,v]);
-		let [sub, type] = path.replaceAll('\\\\', '/').split('/').slice(-2);
+		let [sub, type] = path.replace(/\\\\/g, '/').split('/').slice(-2);
 		type = type.split('.').shift();
 		
 		if (sub == 'menus') {
