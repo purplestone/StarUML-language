@@ -179,13 +179,13 @@ _langItemCope (o, path) {
 			return true;
 		}
 		})) {
-			let lang = oTarget.lang || oLang.lang;
+			let lang = oTarget['text.lang'] || oLang['text.lang'];
 			let text = oTarget.text || oLang.text;
 			if (lang && lang != text) {
 				o[oTarget.labelType] = bImmerse ? lang : (text + '(' +lang +')');
 			}
-			if (oLang.descriptionLang && (oLang.description != oLang.descriptionLang)) {
-				o.description = bImmerse ? oLang.descriptionLang : (o.description + '\\n(' +oLang.descriptionLang +')');
+			if (oLang['description.lang'] && (oLang.description != oLang['description.lang'])) {
+				o.description = bImmerse ? oLang['description.lang'] : (o.description + '\\n(' +oLang['description.lang'] +')');
 			}
 		}
 	}
