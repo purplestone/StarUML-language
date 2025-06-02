@@ -76,12 +76,15 @@ var sConstructor = `
 `;
 
 var sLoadDefaultMenusJsonFiles = `
-	this.langPackageWarp([\`/menus/${process.platform}\`, menus], (type, sub, o, path) => {
+	this.langPackageWarp([\`/menus/$\{process.platform}\`, menus], (type, sub, o, path) => {
 		this._langItemCope(o, type+'|'+path);
 	});
 `;
 
 var sLoadDefaultPreferencesJsonFiles = `
+	this.langPackageWarp([\`/menus/$\{process.platform}\`, menus], (type, sub, o, path) => {
+		this._langItemCope(o, type+'|'+path);
+	});
 	this.langPackageWarp(['/preferences/default', prefs], (type, sub, o, path) => {
 		this._langItemCope(o, type+'|'+path);
 	});
@@ -172,7 +175,7 @@ _langPackageWarp () {
 _langItemCope (o, path) {
 	var oLang = this._langPackage[o.id];
     window.idd = window.idd || 'file.new-from-template';
-    if(o.id == window.idd) debugger;
+    //if(o.id == window.idd) debugger;
 
 	var bImmerse = this._langPackage['language-immerse'];
 	if (oLang) {
