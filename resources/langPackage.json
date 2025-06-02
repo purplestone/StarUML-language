@@ -1,5 +1,26 @@
 {
   "language-immerse": true,
+  "help.request-feature": {
+    "text": "Request Feature...",
+    "text.lang": "求功能...",
+    "list": [
+      {
+        "path": "darwin|menus|menu|help",
+        "type": "darwin",
+        "labelType": "label"
+      },
+      {
+        "path": "linux|menus|menu|help",
+        "type": "linux",
+        "labelType": "label"
+      },
+      {
+        "path": "win32|menus|menu|help",
+        "type": "win32",
+        "labelType": "label"
+      }
+    ]
+  },
   "format.alignment": {
     "text": "Alignment",
     "text.lang": "对齐",
@@ -415,7 +436,7 @@
   },
   "aws.diagram": {
     "text": "AWS Architecture Diagram",
-    "text.lang": "AWS Architecture Diagram",
+    "text.lang": "AWS架构图",
     "list": [
       {
         "path": "aws|menus|menu|model.add-diagram",
@@ -436,7 +457,7 @@
   },
   "aws.model": {
     "text": "AWS Model",
-    "text.lang": "AWS Model",
+    "text.lang": "AWS模型",
     "list": [
       {
         "path": "aws|menus|menu|model.add",
@@ -460,58 +481,58 @@
     "type": "aws",
     "labelType": "text",
     "text": "Arrow",
-    "text.lang": "Arrow"
+    "text.lang": "箭头"
   },
   "aws.arrow.lineStyle": {
     "path": "aws|preferences|schema",
     "type": "aws",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of arrow.",
-    "description.lang": "Default line style of arrow."
+    "description.lang": "箭头默认线条样式"
   },
   "aws.arrow.lineStyle.0": {
     "path": "aws|preferences|schema|options",
     "type": "aws",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "aws.arrow.lineStyle.1": {
     "path": "aws|preferences|schema|options",
     "type": "aws",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "aws.arrow.lineStyle.2": {
     "path": "aws|preferences|schema|options",
     "type": "aws",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "aws.arrow.lineStyle.3": {
     "path": "aws|preferences|schema|options",
     "type": "aws",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "aws.set-name": {
     "path": "aws|quickedits|components",
     "type": "aws",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "aws.set-icon": {
     "path": "aws|quickedits|components",
     "type": "aws",
     "labelType": "hint",
     "text": "AWS Icon",
-    "text.lang": "AWS Icon"
+    "text.lang": "AWS图标"
   },
   "aws.elements": {
     "path": "aws|toolbox|aws.elements",
@@ -525,67 +546,67 @@
     "type": "aws",
     "labelType": "label",
     "text": "AWS Group",
-    "text.lang": "AWS Group"
+    "text.lang": "AWS群组"
   },
   "AWSGenericGroup": {
     "path": "aws|toolbox|AWSGenericGroup|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Generic Group",
-    "text.lang": "AWS Generic Group"
+    "text.lang": "AWS通用群组"
   },
   "AWSAvailabilityZone": {
     "path": "aws|toolbox|AWSAvailabilityZone|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Availability Zone",
-    "text.lang": "AWS Availability Zone"
+    "text.lang": "AWS可用区"
   },
   "AWSSecurityGroup": {
     "path": "aws|toolbox|AWSSecurityGroup|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Security Group",
-    "text.lang": "AWS Security Group"
+    "text.lang": "AWS安全组"
   },
   "AWSService": {
     "path": "aws|toolbox|AWSService|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Service",
-    "text.lang": "AWS Service"
+    "text.lang": "AWS服务"
   },
   "AWSResource": {
     "path": "aws|toolbox|AWSResource|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Resource",
-    "text.lang": "AWS Resource"
+    "text.lang": "AWS资源"
   },
   "AWSGeneralResource": {
     "path": "aws|toolbox|AWSGeneralResource|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS General Resource",
-    "text.lang": "AWS General Resource"
+    "text.lang": "AWS通用资源"
   },
   "AWSCallout": {
     "path": "aws|toolbox|AWSCallout|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Callout",
-    "text.lang": "AWS Callout"
+    "text.lang": "AWS标注"
   },
   "AWSArrow": {
     "path": "aws|toolbox|AWSArrow|items",
     "type": "aws",
     "labelType": "label",
     "text": "AWS Arrow",
-    "text.lang": "AWS Arrow"
+    "text.lang": "AWS箭头"
   },
   "bpmn.diagram": {
     "text": "BPMN Diagram",
-    "text.lang": "BPMN Diagram",
+    "text.lang": "BPMN流程图",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add-diagram",
@@ -606,7 +627,7 @@
   },
   "bpmn.process": {
     "text": "Business Process",
-    "text.lang": "Business Process",
+    "text.lang": "业务流程",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -627,7 +648,7 @@
   },
   "bpmn.collaboration": {
     "text": "Collaboration",
-    "text.lang": "Collaboration",
+    "text.lang": "协作",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -648,7 +669,7 @@
   },
   "bpmn.choreography": {
     "text": "Choreography",
-    "text.lang": "Choreography",
+    "text.lang": "编排",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -670,13 +691,13 @@
         "type": "bpmn",
         "labelType": "label",
         "text": "BPMN Choreography",
-        "text.lang": "BPMN Choreography"
+        "text.lang": "BPMN编排"
       }
     ]
   },
   "bpmn.global-conversation": {
     "text": "Global Conversation",
-    "text.lang": "Global Conversation",
+    "text.lang": "全局会话",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -697,7 +718,7 @@
   },
   "bpmn.task": {
     "text": "Task",
-    "text.lang": "Task",
+    "text.lang": "任务",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -718,7 +739,7 @@
   },
   "bpmn.subprocess": {
     "text": "Sub Process",
-    "text.lang": "Sub Process",
+    "text.lang": "子流程",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -739,7 +760,7 @@
   },
   "bpmn.gateway": {
     "text": "Gateway",
-    "text.lang": "Gateway",
+    "text.lang": "网关",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -765,7 +786,7 @@
   },
   "bpmn.start-event": {
     "text": "Start Event",
-    "text.lang": "Start Event",
+    "text.lang": "开始事件",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -786,7 +807,7 @@
   },
   "bpmn.intermediate-throw-event": {
     "text": "Intermediate Event (Throw)",
-    "text.lang": "Intermediate Event (Throw)",
+    "text.lang": "中间事件(抛出)",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -807,7 +828,7 @@
   },
   "bpmn.intermediate-catch-event": {
     "text": "Intermediate Event (Catch)",
-    "text.lang": "Intermediate Event (Catch)",
+    "text.lang": "中间事件(捕获)",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -828,7 +849,7 @@
   },
   "bpmn.end-event": {
     "text": "End Event",
-    "text.lang": "End Event",
+    "text.lang": "结束事件",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -849,7 +870,7 @@
   },
   "bpmn.compensate-event-definition": {
     "text": "Compensate Event Definition",
-    "text.lang": "Compensate Event Definition",
+    "text.lang": "补偿事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -870,7 +891,7 @@
   },
   "bpmn.cancel-event-definition": {
     "text": "Cancel Event Definition",
-    "text.lang": "Cancel Event Definition",
+    "text.lang": "取消事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -891,7 +912,7 @@
   },
   "bpmn.error-event-definition": {
     "text": "Error Event Definition",
-    "text.lang": "Error Event Definition",
+    "text.lang": "错误事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -912,7 +933,7 @@
   },
   "bpmn.link-event-definition": {
     "text": "Link Event Definition",
-    "text.lang": "Link Event Definition",
+    "text.lang": "链接事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -933,7 +954,7 @@
   },
   "bpmn.signal-event-definition": {
     "text": "Signal Event Definition",
-    "text.lang": "Signal Event Definition",
+    "text.lang": "信号事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -954,7 +975,7 @@
   },
   "bpmn.timer-event-definition": {
     "text": "Timer Event Definition",
-    "text.lang": "Timer Event Definition",
+    "text.lang": "定时器事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -975,7 +996,7 @@
   },
   "bpmn.escalation-event-definition": {
     "text": "Escalation Event Definition",
-    "text.lang": "Escalation Event Definition",
+    "text.lang": "升级事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -996,7 +1017,7 @@
   },
   "bpmn.message-event-definition": {
     "text": "Message Event Definition",
-    "text.lang": "Message Event Definition",
+    "text.lang": "消息事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -1017,7 +1038,7 @@
   },
   "bpmn.terminate-event-definition": {
     "text": "Terminate Event Definition",
-    "text.lang": "Terminate Event Definition",
+    "text.lang": "终止事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -1038,7 +1059,7 @@
   },
   "bpmn.conditional-event-definition": {
     "text": "Conditional Event Definition",
-    "text.lang": "Conditional Event Definition",
+    "text.lang": "条件事件定义",
     "list": [
       {
         "path": "bpmn|menus|menu|model.add",
@@ -1062,36 +1083,36 @@
     "type": "bpmn",
     "labelType": "text",
     "text": "Activity",
-    "text.lang": "Activity"
+    "text.lang": "活动"
   },
   "bpmn.activity.fillColor": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Activity.",
-    "description.lang": "Fill color of Activity."
+    "description.lang": "活动的填充颜色。"
   },
   "bpmn.event": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Event",
-    "text.lang": "Event"
+    "text.lang": "事件"
   },
   "bpmn.event.fillColor": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Event.",
-    "description.lang": "Fill color of Event."
+    "description.lang": "事件的填充颜色。"
   },
   "bpmn.message": {
     "text": "Message",
-    "text.lang": "Message",
+    "text.lang": "消息",
     "list": [
       {
         "path": "bpmn|preferences|schema",
@@ -1103,7 +1124,7 @@
         "type": "bpmn",
         "labelType": "label",
         "text": "BPMN Message",
-        "text.lang": "BPMN Message"
+        "text.lang": "BPMN消息"
       }
     ]
   },
@@ -1112,38 +1133,38 @@
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Message.",
-    "description.lang": "Fill color of Message."
+    "description.lang": "消息的填充颜色。"
   },
   "bpmn.gateway.fillColor": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Gateway.",
-    "description.lang": "Fill color of Gateway."
+    "description.lang": "网关的填充颜色。"
   },
   "bpmn.dataobject": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Data Object",
-    "text.lang": "Data Object"
+    "text.lang": "数据对象"
   },
   "bpmn.dataobject.fillColor": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Data Object.",
-    "description.lang": "Fill color of Data Object."
+    "description.lang": "数据对象的填充颜色。"
   },
   "bpmn.conversation": {
     "text": "Conversation",
-    "text.lang": "Conversation",
+    "text.lang": "会话",
     "list": [
       {
         "path": "bpmn|preferences|schema",
@@ -1155,7 +1176,7 @@
         "type": "bpmn",
         "labelType": "label",
         "text": "BPMN Conversation",
-        "text.lang": "BPMN Conversation"
+        "text.lang": "BPMN会话"
       }
     ]
   },
@@ -1164,306 +1185,306 @@
     "type": "bpmn",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Conversation.",
-    "description.lang": "Fill color of Conversation."
+    "description.lang": "会话的填充颜色。"
   },
   "bpmn.sequence-flow": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Sequence Flow",
-    "text.lang": "Sequence Flow"
+    "text.lang": "顺序流"
   },
   "bpmn.sequence-flow.lineStyle": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of sequence flow.",
-    "description.lang": "Default line style of sequence flow."
+    "description.lang": "顺序流的默认线条样式。"
   },
   "bpmn.sequence-flow.lineStyle.0": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "bpmn.sequence-flow.lineStyle.1": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "bpmn.sequence-flow.lineStyle.2": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "bpmn.sequence-flow.lineStyle.3": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "bpmn.message-flow": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Message Flow",
-    "text.lang": "Message Flow"
+    "text.lang": "消息流"
   },
   "bpmn.message-flow.lineStyle": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of message flow.",
-    "description.lang": "Default line style of message flow."
+    "description.lang": "消息流的默认线条样式。"
   },
   "bpmn.message-flow.lineStyle.0": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "bpmn.message-flow.lineStyle.1": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "bpmn.message-flow.lineStyle.2": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "bpmn.message-flow.lineStyle.3": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "bpmn.conversation-link": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Conversation Link",
-    "text.lang": "Conversation Link"
+    "text.lang": "会话链接"
   },
   "bpmn.conversation-link.lineStyle": {
     "path": "bpmn|preferences|schema",
     "type": "bpmn",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of conversation link.",
-    "description.lang": "Default line style of conversation link."
+    "description.lang": "会话链接的默认线条样式。"
   },
   "bpmn.conversation-link.lineStyle.0": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "bpmn.conversation-link.lineStyle.1": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "bpmn.conversation-link.lineStyle.2": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "bpmn.conversation-link.lineStyle.3": {
     "path": "bpmn|preferences|schema|options",
     "type": "bpmn",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "bpmn.set-name": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "bpmn.set-text": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "text",
-    "text.lang": "text"
+    "text.lang": "文本"
   },
   "bpmn.add-lane": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Lane",
-    "text.lang": "Add Lane"
+    "text.lang": "添加泳道"
   },
   "bpmn.add-boundary-event": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Boundary Event",
-    "text.lang": "Add Boundary Event"
+    "text.lang": "添加边界事件"
   },
   "bpmn.add-compensate-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Compensate Event Definition",
-    "text.lang": "Add Compensate Event Definition"
+    "text.lang": "添加补偿事件定义"
   },
   "bpmn.add-cancel-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Cancel Event Definition",
-    "text.lang": "Add Cancel Event Definition"
+    "text.lang": "添加取消事件定义"
   },
   "bpmn.add-error-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Error Event Definition",
-    "text.lang": "Add Error Event Definition"
+    "text.lang": "添加错误事件定义"
   },
   "bpmn.add-link-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Link Event Definition",
-    "text.lang": "Add Link Event Definition"
+    "text.lang": "添加链接事件定义"
   },
   "bpmn.add-signal-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Signal Event Definition",
-    "text.lang": "Add Signal Event Definition"
+    "text.lang": "添加信号事件定义"
   },
   "bpmn.add-timer-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Timer Event Definition",
-    "text.lang": "Add Timer Event Definition"
+    "text.lang": "添加定时器事件定义"
   },
   "bpmn.add-escalation-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Escalation Event Definition",
-    "text.lang": "Add Escalation Event Definition"
+    "text.lang": "添加升级事件定义"
   },
   "bpmn.add-message-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Message Event Definition",
-    "text.lang": "Add Message Event Definition"
+    "text.lang": "添加消息事件定义"
   },
   "bpmn.add-terminate-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Terminate Event Definition",
-    "text.lang": "Add Terminate Event Definition"
+    "text.lang": "添加终止事件定义"
   },
   "bpmn.add-conditional-event-definition": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Conditional Event Definition",
-    "text.lang": "Add Conditional Event Definition"
+    "text.lang": "添加条件事件定义"
   },
   "bpmn.create-choreography-participant-upper": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Create Participant (Upper)",
-    "text.lang": "Create Participant (Upper)"
+    "text.lang": "创建参与者(上)"
   },
   "bpmn.create-choreography-participant-lower": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Create Participant (Lower)",
-    "text.lang": "Create Participant (Lower)"
+    "text.lang": "创建参与者(下)"
   },
   "bpmn.assign-choreography-participant-upper": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Assign Participant (Upper)",
-    "text.lang": "Assign Participant (Upper)"
+    "text.lang": "分配参与者(上)"
   },
   "bpmn.assign-choreography-participant-lower": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Assign Participant (Lower)",
-    "text.lang": "Assign Participant (Lower)"
+    "text.lang": "分配参与者(下)"
   },
   "bpmn.assign-choreography-initiating-participant": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Initiating Participant",
-    "text.lang": "Initiating Participant"
+    "text.lang": "发起参与者"
   },
   "bpmn.add-choreography-initiating-message": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Create Initiating Message",
-    "text.lang": "Create Initiating Message"
+    "text.lang": "创建初始消息"
   },
   "bpmn.add-choreography-return-message": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Create Return Message",
-    "text.lang": "Create Return Message"
+    "text.lang": "创建返回消息"
   },
   "bpmn.add-text-annotation": {
     "path": "bpmn|quickedits|components",
     "type": "bpmn",
     "labelType": "hint",
     "text": "Add Text Annotation",
-    "text.lang": "Add Text Annotation"
+    "text.lang": "添加文本注释"
   },
   "bpmn.basic": {
     "path": "bpmn|toolbox|bpmn.basic",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Basic",
-    "text.lang": "BPMN Basic"
+    "text.lang": "BPMN基础"
   },
   "BPMNTask": {
     "text": "Task",
-    "text.lang": "Task",
+    "text.lang": "任务",
     "list": [
       {
         "path": "bpmn|toolbox|BPMNTask|items",
@@ -1474,7 +1495,7 @@
   },
   "BPMNExclusiveGateway": {
     "text": "Gateway",
-    "text.lang": "Gateway",
+    "text.lang": "网关",
     "list": [
       {
         "path": "bpmn|toolbox|BPMNExclusiveGateway|items",
@@ -1485,7 +1506,7 @@
   },
   "BPMNStartEvent": {
     "text": "Start Event",
-    "text.lang": "Start Event",
+    "text.lang": "开始事件",
     "list": [
       {
         "path": "bpmn|toolbox|BPMNStartEvent|items",
@@ -1496,7 +1517,7 @@
   },
   "BPMNEndEvent": {
     "text": "End Event",
-    "text.lang": "End Event",
+    "text.lang": "结束事件",
     "list": [
       {
         "path": "bpmn|toolbox|BPMNEndEvent|items",
@@ -1510,326 +1531,326 @@
     "type": "bpmn",
     "labelType": "label",
     "text": "Sequence Flow",
-    "text.lang": "Sequence Flow"
+    "text.lang": "顺序流"
   },
   "bpmn.artifact": {
     "path": "bpmn|toolbox|bpmn.artifact",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Artifact",
-    "text.lang": "BPMN Artifact"
+    "text.lang": "BPMN工件"
   },
   "BPMNTextAnnotation": {
     "path": "bpmn|toolbox|BPMNTextAnnotation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Text Annotation",
-    "text.lang": "Text Annotation"
+    "text.lang": "文本注释"
   },
   "BPMNGroup": {
     "path": "bpmn|toolbox|BPMNGroup|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Group",
-    "text.lang": "Group"
+    "text.lang": "组"
   },
   "BPMNAssociation": {
     "path": "bpmn|toolbox|BPMNAssociation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Association",
-    "text.lang": "Association"
+    "text.lang": "关联"
   },
   "bpmn.swimlanes": {
     "path": "bpmn|toolbox|bpmn.swimlanes",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Swimlanes",
-    "text.lang": "BPMN Swimlanes"
+    "text.lang": "BPMN泳道"
   },
   "BPMNParticipant": {
     "path": "bpmn|toolbox|BPMNParticipant|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Pool",
-    "text.lang": "Pool"
+    "text.lang": "池"
   },
   "BPMNParticipantVert": {
     "path": "bpmn|toolbox|BPMNParticipantVert|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Pool (Vert)",
-    "text.lang": "Pool (Vert)"
+    "text.lang": "池(垂直)"
   },
   "BPMNLane": {
     "path": "bpmn|toolbox|BPMNLane|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Lane",
-    "text.lang": "Lane"
+    "text.lang": "泳道"
   },
   "BPMNLaneVert": {
     "path": "bpmn|toolbox|BPMNLaneVert|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Lane (Vert)",
-    "text.lang": "Lane (Vert)"
+    "text.lang": "泳道(垂直)"
   },
   "bpmn.activities": {
     "path": "bpmn|toolbox|bpmn.activities",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Activities",
-    "text.lang": "BPMN Activities"
+    "text.lang": "BPMN活动"
   },
   "BPMNSendTask": {
     "path": "bpmn|toolbox|BPMNSendTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Send Task",
-    "text.lang": "Send Task"
+    "text.lang": "发送任务"
   },
   "BPMNReceiveTask": {
     "path": "bpmn|toolbox|BPMNReceiveTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Receive Task",
-    "text.lang": "Receive Task"
+    "text.lang": "接收任务"
   },
   "BPMNServiceTask": {
     "path": "bpmn|toolbox|BPMNServiceTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Service Task",
-    "text.lang": "Service Task"
+    "text.lang": "服务任务"
   },
   "BPMNUserTask": {
     "path": "bpmn|toolbox|BPMNUserTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "User Task",
-    "text.lang": "User Task"
+    "text.lang": "用户任务"
   },
   "BPMNManualTask": {
     "path": "bpmn|toolbox|BPMNManualTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Manual Task",
-    "text.lang": "Manual Task"
+    "text.lang": "手动任务"
   },
   "BPMNBusinessRuleTask": {
     "path": "bpmn|toolbox|BPMNBusinessRuleTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Business Rule Task",
-    "text.lang": "Business Rule Task"
+    "text.lang": "业务规则任务"
   },
   "BPMNScriptTask": {
     "path": "bpmn|toolbox|BPMNScriptTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Script Task",
-    "text.lang": "Script Task"
+    "text.lang": "脚本任务"
   },
   "BPMNCallActivity": {
     "path": "bpmn|toolbox|BPMNCallActivity|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Call Activity",
-    "text.lang": "Call Activity"
+    "text.lang": "调用活动"
   },
   "BPMNSubProcess": {
     "path": "bpmn|toolbox|BPMNSubProcess|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Sub Process",
-    "text.lang": "Sub Process"
+    "text.lang": "子流程"
   },
   "BPMNAdHocSubProcess": {
     "path": "bpmn|toolbox|BPMNAdHocSubProcess|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Ad-Hoc Sub Process",
-    "text.lang": "Ad-Hoc Sub Process"
+    "text.lang": "即时子流程"
   },
   "BPMNTransaction": {
     "path": "bpmn|toolbox|BPMNTransaction|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Transaction",
-    "text.lang": "Transaction"
+    "text.lang": "事务"
   },
   "bpmn.gateways": {
     "path": "bpmn|toolbox|bpmn.gateways",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Gateways",
-    "text.lang": "BPMN Gateways"
+    "text.lang": "BPMN网关"
   },
   "BPMNEventBasedGateway": {
     "path": "bpmn|toolbox|BPMNEventBasedGateway|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Gateway (Event-Based)",
-    "text.lang": "Gateway (Event-Based)"
+    "text.lang": "网关(基于事件)"
   },
   "BPMNInclusiveGateway": {
     "path": "bpmn|toolbox|BPMNInclusiveGateway|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Gateway (Inclusive)",
-    "text.lang": "Gateway (Inclusive)"
+    "text.lang": "网关(包含)"
   },
   "BPMNComplexGateway": {
     "path": "bpmn|toolbox|BPMNComplexGateway|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Gateway (Complex)",
-    "text.lang": "Gateway (Complex)"
+    "text.lang": "网关(复杂)"
   },
   "BPMNParallelGateway": {
     "path": "bpmn|toolbox|BPMNParallelGateway|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Gateway (Parallel)",
-    "text.lang": "Gateway (Parallel)"
+    "text.lang": "网关(并行)"
   },
   "bpmn.events": {
     "path": "bpmn|toolbox|bpmn.events",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Events",
-    "text.lang": "BPMN Events"
+    "text.lang": "BPMN事件"
   },
   "BPMNIntermediateThrowEvent": {
     "path": "bpmn|toolbox|BPMNIntermediateThrowEvent|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Intermediate Event (Throw)",
-    "text.lang": "Intermediate Event (Throw)"
+    "text.lang": "中间事件(抛出)"
   },
   "BPMNIntermediateCatchEvent": {
     "path": "bpmn|toolbox|BPMNIntermediateCatchEvent|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Intermediate Event (Catch)",
-    "text.lang": "Intermediate Event (Catch)"
+    "text.lang": "中间事件(捕获)"
   },
   "BPMNBoundaryEvent": {
     "path": "bpmn|toolbox|BPMNBoundaryEvent|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Boundary Event",
-    "text.lang": "Boundary Event"
+    "text.lang": "边界事件"
   },
   "bpmn.data": {
     "path": "bpmn|toolbox|bpmn.data",
     "type": "bpmn",
     "labelType": "label",
     "text": "BPMN Data",
-    "text.lang": "BPMN Data"
+    "text.lang": "BPMN数据"
   },
   "BPMNDataObject": {
     "path": "bpmn|toolbox|BPMNDataObject|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Data Object",
-    "text.lang": "Data Object"
+    "text.lang": "数据对象"
   },
   "BPMNDataStore": {
     "path": "bpmn|toolbox|BPMNDataStore|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Data Store",
-    "text.lang": "Data Store"
+    "text.lang": "数据存储"
   },
   "BPMNDataInput": {
     "path": "bpmn|toolbox|BPMNDataInput|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Data Input",
-    "text.lang": "Data Input"
+    "text.lang": "数据输入"
   },
   "BPMNDataOutput": {
     "path": "bpmn|toolbox|BPMNDataOutput|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Data Output",
-    "text.lang": "Data Output"
+    "text.lang": "数据输出"
   },
   "BPMNDataAssociation": {
     "path": "bpmn|toolbox|BPMNDataAssociation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Data Association",
-    "text.lang": "Data Association"
+    "text.lang": "数据关联"
   },
   "BPMNMessage": {
     "path": "bpmn|toolbox|BPMNMessage|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Message",
-    "text.lang": "Message"
+    "text.lang": "消息"
   },
   "BPMNMessageFlow": {
     "path": "bpmn|toolbox|BPMNMessageFlow|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Message Flow",
-    "text.lang": "Message Flow"
+    "text.lang": "消息流"
   },
   "BPMNChoreographyTask": {
     "path": "bpmn|toolbox|BPMNChoreographyTask|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Choreography Task",
-    "text.lang": "Choreography Task"
+    "text.lang": "编排任务"
   },
   "BPMNSubChoreography": {
     "path": "bpmn|toolbox|BPMNSubChoreography|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Sub Choreography",
-    "text.lang": "Sub Choreography"
+    "text.lang": "子编排"
   },
   "BPMNMessageLink": {
     "path": "bpmn|toolbox|BPMNMessageLink|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Message Link",
-    "text.lang": "Message Link"
+    "text.lang": "消息链接"
   },
   "BPMNConversation": {
     "path": "bpmn|toolbox|BPMNConversation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Conversation",
-    "text.lang": "Conversation"
+    "text.lang": "会话"
   },
   "BPMNSubConversation": {
     "path": "bpmn|toolbox|BPMNSubConversation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Sub Conversation",
-    "text.lang": "Sub Conversation"
+    "text.lang": "子会话"
   },
   "BPMNCallConversation": {
     "path": "bpmn|toolbox|BPMNCallConversation|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Call Conversation",
-    "text.lang": "Call Conversation"
+    "text.lang": "调用会话"
   },
   "BPMNConversationLink": {
     "path": "bpmn|toolbox|BPMNConversationLink|items",
     "type": "bpmn",
     "labelType": "label",
     "text": "Conversation Link",
-    "text.lang": "Conversation Link"
+    "text.lang": "会话链接"
   },
   "c4.diagram": {
     "text": "C4 Diagram",
-    "text.lang": "C4 Diagram",
+    "text.lang": "C4图",
     "list": [
       {
         "path": "c4|menus|menu|model.add-diagram",
@@ -1850,7 +1871,7 @@
   },
   "c4.model": {
     "text": "C4 Model",
-    "text.lang": "C4 Model",
+    "text.lang": "C4模型",
     "list": [
       {
         "path": "c4|menus|menu|model.add",
@@ -1871,7 +1892,7 @@
   },
   "c4.person": {
     "text": "C4 Person",
-    "text.lang": "C4 Person",
+    "text.lang": "C4人员",
     "list": [
       {
         "path": "c4|menus|menu|model.add",
@@ -1893,13 +1914,13 @@
         "type": "c4",
         "labelType": "text",
         "text": "Person",
-        "text.lang": "Person"
+        "text.lang": "人员"
       }
     ]
   },
   "c4.software-system": {
     "text": "C4 Software System",
-    "text.lang": "C4 Software System",
+    "text.lang": "C4软件系统",
     "list": [
       {
         "path": "c4|menus|menu|model.add",
@@ -1921,13 +1942,13 @@
         "type": "c4",
         "labelType": "text",
         "text": "Software System",
-        "text.lang": "Software System"
+        "text.lang": "软件系统"
       }
     ]
   },
   "c4.container": {
     "text": "C4 Container",
-    "text.lang": "C4 Container",
+    "text.lang": "C4容器",
     "list": [
       {
         "path": "c4|menus|menu|model.add",
@@ -1949,13 +1970,13 @@
         "type": "c4",
         "labelType": "text",
         "text": "Container",
-        "text.lang": "Container"
+        "text.lang": "容器"
       }
     ]
   },
   "c4.component": {
     "text": "C4 Component",
-    "text.lang": "C4 Component",
+    "text.lang": "C4组件",
     "list": [
       {
         "path": "c4|menus|menu|model.add",
@@ -1977,7 +1998,7 @@
         "type": "c4",
         "labelType": "text",
         "text": "Component",
-        "text.lang": "Component"
+        "text.lang": "组件"
       }
     ]
   },
@@ -1986,171 +2007,171 @@
     "type": "c4",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Person.",
-    "description.lang": "Fill color of Person."
+    "description.lang": "人员的填充颜色。"
   },
   "c4.software-system.fillColor": {
     "path": "c4|preferences|schema",
     "type": "c4",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Software System.",
-    "description.lang": "Fill color of Software System."
+    "description.lang": "软件系统的填充颜色。"
   },
   "c4.container.fillColor": {
     "path": "c4|preferences|schema",
     "type": "c4",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Container.",
-    "description.lang": "Fill color of Container."
+    "description.lang": "容器的填充颜色。"
   },
   "c4.component.fillColor": {
     "path": "c4|preferences|schema",
     "type": "c4",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Component.",
-    "description.lang": "Fill color of Component."
+    "description.lang": "组件的填充颜色。"
   },
   "c4.relationship": {
     "path": "c4|preferences|schema",
     "type": "c4",
     "labelType": "text",
     "text": "Relationship",
-    "text.lang": "Relationship"
+    "text.lang": "关系"
   },
   "c4.relationship.lineStyle": {
     "path": "c4|preferences|schema",
     "type": "c4",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of relationship.",
-    "description.lang": "Default line style of relationship."
+    "description.lang": "关系的默认线条样式。"
   },
   "c4.relationship.lineStyle.0": {
     "path": "c4|preferences|schema|options",
     "type": "c4",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "c4.relationship.lineStyle.1": {
     "path": "c4|preferences|schema|options",
     "type": "c4",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "c4.relationship.lineStyle.2": {
     "path": "c4|preferences|schema|options",
     "type": "c4",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "c4.relationship.lineStyle.3": {
     "path": "c4|preferences|schema|options",
     "type": "c4",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "c4.set-name": {
     "path": "c4|quickedits|components",
     "type": "c4",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "c4.set-description": {
     "path": "c4|quickedits|components",
     "type": "c4",
     "labelType": "hint",
     "text": "description",
-    "text.lang": "description"
+    "text.lang": "描述"
   },
   "c4": {
     "path": "c4|toolbox|c4",
     "type": "c4",
     "labelType": "label",
     "text": "C4 Model",
-    "text.lang": "C4 Model"
+    "text.lang": "C4模型"
   },
   "C4Person": {
     "path": "c4|toolbox|C4Person|items",
     "type": "c4",
     "labelType": "label",
     "text": "Person",
-    "text.lang": "Person"
+    "text.lang": "人员"
   },
   "C4SoftwareSystem": {
     "path": "c4|toolbox|C4SoftwareSystem|items",
     "type": "c4",
     "labelType": "label",
     "text": "Software System",
-    "text.lang": "Software System"
+    "text.lang": "软件系统"
   },
   "C4Container": {
     "path": "c4|toolbox|C4Container|items",
     "type": "c4",
     "labelType": "label",
     "text": "Container",
-    "text.lang": "Container"
+    "text.lang": "容器"
   },
   "C4ContainerDatabase": {
     "path": "c4|toolbox|C4ContainerDatabase|items",
     "type": "c4",
     "labelType": "label",
     "text": "Container (Database)",
-    "text.lang": "Container (Database)"
+    "text.lang": "容器(数据库)"
   },
   "C4ContainerWebApp": {
     "path": "c4|toolbox|C4ContainerWebApp|items",
     "type": "c4",
     "labelType": "label",
     "text": "Container (Web App)",
-    "text.lang": "Container (Web App)"
+    "text.lang": "容器(Web应用)"
   },
   "C4ContainerDesktopApp": {
     "path": "c4|toolbox|C4ContainerDesktopApp|items",
     "type": "c4",
     "labelType": "label",
     "text": "Container (Desktop App)",
-    "text.lang": "Container (Desktop App)"
+    "text.lang": "容器(桌面应用)"
   },
   "C4ContainerMobileApp": {
     "path": "c4|toolbox|C4ContainerMobileApp|items",
     "type": "c4",
     "labelType": "label",
     "text": "Container (Mobile App)",
-    "text.lang": "Container (Mobile App)"
+    "text.lang": "容器(移动应用)"
   },
   "C4Component": {
     "path": "c4|toolbox|C4Component|items",
     "type": "c4",
     "labelType": "label",
     "text": "Component",
-    "text.lang": "Component"
+    "text.lang": "组件"
   },
   "C4Element": {
     "path": "c4|toolbox|C4Element|items",
     "type": "c4",
     "labelType": "label",
     "text": "Element",
-    "text.lang": "Element"
+    "text.lang": "元素"
   },
   "C4Relationship": {
     "path": "c4|toolbox|C4Relationship|items",
     "type": "c4",
     "labelType": "label",
     "text": "Relationship",
-    "text.lang": "Relationship"
+    "text.lang": "关系"
   },
   "common.tag": {
     "text": "Tag",
@@ -2379,8 +2400,7 @@
     "text": "Line Style",
     "text.lang": "线条风格",
     "description": "Default line style of Data Flow.",
-    "description.lang": "Default line style of Data Flow.",
-    "descriptionLang.lang": "数据流的默认线条风格。"
+    "description.lang": "数据流的默认线条风格。"
   },
   "dfd.dataflow.lineStyle.0": {
     "path": "dfd|preferences|schema|options",
@@ -2417,8 +2437,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of External Entity.",
-    "description.lang": "Fill color of External Entity.",
-    "descriptionLang.lang": "外部实体的填充颜色。"
+    "description.lang": "外部实体的填充颜色。"
   },
   "dfd.process.fillColor": {
     "path": "dfd|preferences|schema",
@@ -2427,8 +2446,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Process.",
-    "description.lang": "Fill color of Process.",
-    "descriptionLang.lang": "处理的填充颜色。"
+    "description.lang": "处理的填充颜色。"
   },
   "dfd.datastore": {
     "path": "dfd|preferences|schema",
@@ -2444,43 +2462,42 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Data Store.",
-    "description.lang": "Fill color of Data Store.",
-    "descriptionLang.lang": "数据存储的填充颜色。"
+    "description.lang": "数据存储的填充颜色。"
   },
   "dfd.set-name": {
     "path": "dfd|quickedits|components",
     "type": "dfd",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "dfd.add-outgoing-process": {
     "path": "dfd|quickedits|components",
     "type": "dfd",
     "labelType": "hint",
     "text": "Add Outgoing Process",
-    "text.lang": "Add Outgoing Process"
+    "text.lang": "添加出站流程"
   },
   "dfd.add-outgoing-datastore": {
     "path": "dfd|quickedits|components",
     "type": "dfd",
     "labelType": "hint",
     "text": "Add Outgoing Data Store",
-    "text.lang": "Add Outgoing Data Store"
+    "text.lang": "添加出站数据存储"
   },
   "dfd.add-incoming-external-entity": {
     "path": "dfd|quickedits|components",
     "type": "dfd",
     "labelType": "hint",
     "text": "Add Incoming External Entity",
-    "text.lang": "Add Incoming External Entity"
+    "text.lang": "添加入站外部实体"
   },
   "dfd.add-incoming-process": {
     "path": "dfd|quickedits|components",
     "type": "dfd",
     "labelType": "hint",
     "text": "Add Incoming Process",
-    "text.lang": "Add Incoming Process"
+    "text.lang": "添加入站流程"
   },
   "dfd": {
     "path": "dfd|toolbox|dfd",
@@ -2629,8 +2646,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Subsystem.",
-    "description.lang": "Fill color of Subsystem.",
-    "descriptionLang.lang": "子系统的填充颜色。"
+    "description.lang": "子系统的填充颜色。"
   },
   "erd.relationship": {
     "path": "erd|preferences|schema",
@@ -2646,8 +2662,7 @@
     "text": "Line Style",
     "text.lang": "线条风格",
     "description": "Default line style of entity relationships.",
-    "description.lang": "Default line style of entity relationships.",
-    "descriptionLang.lang": "实体关系的默认线条风格。"
+    "description.lang": "实体关系的默认线条风格。"
   },
   "erd.relationship.lineStyle.0": {
     "path": "erd|preferences|schema|options",
@@ -2682,119 +2697,119 @@
     "type": "erd",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "erd.primary-key": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Primary Key",
-    "text.lang": "Primary Key"
+    "text.lang": "主键"
   },
   "1.true": {
     "path": "erd|quickedits|components|1.true|items",
     "type": "erd",
     "labelType": "text",
     "text": "Primary Key",
-    "text.lang": "Primary Key"
+    "text.lang": "主键"
   },
   "1.false": {
     "path": "erd|quickedits|components|1.false|items",
     "type": "erd",
     "labelType": "text",
     "text": "Not Key",
-    "text.lang": "Not Key"
+    "text.lang": "非键"
   },
   "erd.column-expression": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "name : type (length)",
-    "text.lang": "name : type (length)"
+    "text.lang": "名称 : 类型 (长度)"
   },
   "erd.add-column": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Add Column",
-    "text.lang": "Add Column"
+    "text.lang": "添加列"
   },
   "erd.add-one-to-one": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Add One to One",
-    "text.lang": "Add One to One"
+    "text.lang": "添加一对一关系"
   },
   "erd.add-one-to-many": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Add One to Many",
-    "text.lang": "Add One to Many"
+    "text.lang": "添加一对多关系"
   },
   "erd.add-many-to-many": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Add Many to Many",
-    "text.lang": "Add Many to Many"
+    "text.lang": "添加多对多关系"
   },
   "erd.set-identifying": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Identifying",
-    "text.lang": "Identifying"
+    "text.lang": "标识关系"
   },
   "7.true": {
     "path": "erd|quickedits|components|7.true|items",
     "type": "erd",
     "labelType": "text",
     "text": "Identifying",
-    "text.lang": "Identifying"
+    "text.lang": "标识关系"
   },
   "7.false": {
     "path": "erd|quickedits|components|7.false|items",
     "type": "erd",
     "labelType": "text",
     "text": "Non-Identifying",
-    "text.lang": "Non-Identifying"
+    "text.lang": "非标识关系"
   },
   "erd.set-cardinality": {
     "path": "erd|quickedits|components",
     "type": "erd",
     "labelType": "hint",
     "text": "Cardinality",
-    "text.lang": "Cardinality"
+    "text.lang": "基数"
   },
   "8.0..1": {
     "path": "erd|quickedits|components|8.0..1|items",
     "type": "erd",
     "labelType": "text",
     "text": "Zero or One",
-    "text.lang": "Zero or One"
+    "text.lang": "零或一"
   },
   "8.1": {
     "path": "erd|quickedits|components|8.1|items",
     "type": "erd",
     "labelType": "text",
     "text": "One and Only One",
-    "text.lang": "One and Only One"
+    "text.lang": "唯一一个"
   },
   "8.0..*": {
     "path": "erd|quickedits|components|8.0..*|items",
     "type": "erd",
     "labelType": "text",
     "text": "Zero or Many",
-    "text.lang": "Zero or Many"
+    "text.lang": "零或多"
   },
   "8.1..*": {
     "path": "erd|quickedits|components|8.1..*|items",
     "type": "erd",
     "labelType": "text",
     "text": "One or Many",
-    "text.lang": "One or Many"
+    "text.lang": "一或多"
   },
   "erd": {
     "path": "erd|toolbox|erd",
@@ -2866,8 +2881,7 @@
     "text": "Line Style",
     "text.lang": "线条风格",
     "description": "Default line style of flow.",
-    "description.lang": "Default line style of flow.",
-    "descriptionLang.lang": "流的默认线条风格。"
+    "description.lang": "流的默认线条风格。"
   },
   "flowchart.flow.lineStyle.0": {
     "path": "flowchart|preferences|schema|options",
@@ -2911,8 +2925,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Process.",
-    "description.lang": "Fill color of Process.",
-    "descriptionLang.lang": "处理的填充颜色。"
+    "description.lang": "处理的填充颜色。"
   },
   "flowchart.terminator": {
     "path": "flowchart|preferences|schema",
@@ -2928,8 +2941,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Terminator.",
-    "description.lang": "Fill color of Terminator.",
-    "descriptionLang.lang": "终端的填充颜色。"
+    "description.lang": "终端的填充颜色。"
   },
   "flowchart.decision": {
     "path": "flowchart|preferences|schema",
@@ -2945,8 +2957,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Decision.",
-    "description.lang": "Fill color of Decision.",
-    "descriptionLang.lang": "决定的填充颜色。"
+    "description.lang": "决定的填充颜色。"
   },
   "flowchart.delay": {
     "path": "flowchart|preferences|schema",
@@ -2962,8 +2973,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Delay.",
-    "description.lang": "Fill color of Delay.",
-    "descriptionLang.lang": "延迟的填充颜色。"
+    "description.lang": "延迟的填充颜色。"
   },
   "flowchart.predefined-process": {
     "path": "flowchart|preferences|schema",
@@ -2979,8 +2989,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Predefined Process.",
-    "description.lang": "Fill color of Predefined Process.",
-    "descriptionLang.lang": "预定义处理的填充颜色。"
+    "description.lang": "预定义处理的填充颜色。"
   },
   "flowchart.alternate-process": {
     "path": "flowchart|preferences|schema",
@@ -2996,8 +3005,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Alternate Process.",
-    "description.lang": "Fill color of Alternate Process.",
-    "descriptionLang.lang": "交替处理的填充颜色。"
+    "description.lang": "交替处理的填充颜色。"
   },
   "flowchart.data": {
     "path": "flowchart|preferences|schema",
@@ -3013,8 +3021,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Data.",
-    "description.lang": "Fill color of Data.",
-    "descriptionLang.lang": "数据的填充颜色。"
+    "description.lang": "数据的填充颜色。"
   },
   "flowchart.document": {
     "path": "flowchart|preferences|schema",
@@ -3030,8 +3037,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Document.",
-    "description.lang": "Fill color of Document.",
-    "descriptionLang.lang": "文档的填充颜色。"
+    "description.lang": "文档的填充颜色。"
   },
   "flowchart.multidocument": {
     "path": "flowchart|preferences|schema",
@@ -3047,8 +3053,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Multi-Document.",
-    "description.lang": "Fill color of Multi-Document.",
-    "descriptionLang.lang": "多文档的填充颜色。"
+    "description.lang": "多文档的填充颜色。"
   },
   "flowchart.preparation": {
     "path": "flowchart|preferences|schema",
@@ -3064,8 +3069,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Preparation.",
-    "description.lang": "Fill color of Preparation.",
-    "descriptionLang.lang": "准备的填充颜色。"
+    "description.lang": "准备的填充颜色。"
   },
   "flowchart.display": {
     "path": "flowchart|preferences|schema",
@@ -3081,8 +3085,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Display.",
-    "description.lang": "Fill color of Display.",
-    "descriptionLang.lang": "显示的填充颜色。"
+    "description.lang": "显示的填充颜色。"
   },
   "flowchart.manual-input": {
     "path": "flowchart|preferences|schema",
@@ -3098,8 +3101,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Manual Input.",
-    "description.lang": "Fill color of Manual Input.",
-    "descriptionLang.lang": "人工输入的填充颜色。"
+    "description.lang": "人工输入的填充颜色。"
   },
   "flowchart.manual-operation": {
     "path": "flowchart|preferences|schema",
@@ -3115,8 +3117,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Manual Operation.",
-    "description.lang": "Fill color of Manual Operation.",
-    "descriptionLang.lang": "人工操作的填充颜色。"
+    "description.lang": "人工操作的填充颜色。"
   },
   "flowchart.card": {
     "path": "flowchart|preferences|schema",
@@ -3132,8 +3133,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Card.",
-    "description.lang": "Fill color of Card.",
-    "descriptionLang.lang": "卡片的填充颜色。"
+    "description.lang": "卡片的填充颜色。"
   },
   "flowchart.punched-tape": {
     "path": "flowchart|preferences|schema",
@@ -3149,8 +3149,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Punched Tape.",
-    "description.lang": "Fill color of Punched Tape.",
-    "descriptionLang.lang": "穿孔卡片的填充颜色。"
+    "description.lang": "穿孔卡片的填充颜色。"
   },
   "flowchart.connector": {
     "path": "flowchart|preferences|schema",
@@ -3166,8 +3165,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Connector.",
-    "description.lang": "Fill color of Connector.",
-    "descriptionLang.lang": "连接器的填充颜色。"
+    "description.lang": "连接器的填充颜色。"
   },
   "flowchart.off-page-connector": {
     "path": "flowchart|preferences|schema",
@@ -3183,8 +3181,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Off-Page Connector.",
-    "description.lang": "Fill color of Off-Page Connector.",
-    "descriptionLang.lang": "换页连接器的填充颜色。"
+    "description.lang": "换页连接器的填充颜色。"
   },
   "flowchart.or": {
     "path": "flowchart|preferences|schema",
@@ -3200,8 +3197,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Or.",
-    "description.lang": "Fill color of Or.",
-    "descriptionLang.lang": "或的填充颜色。"
+    "description.lang": "或的填充颜色。"
   },
   "flowchart.summing-junction": {
     "path": "flowchart|preferences|schema",
@@ -3217,8 +3213,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Summing Junction.",
-    "description.lang": "Fill color of Summing Junction.",
-    "descriptionLang.lang": "求和结的填充颜色。"
+    "description.lang": "求和结的填充颜色。"
   },
   "flowchart.collate": {
     "path": "flowchart|preferences|schema",
@@ -3234,8 +3229,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Collate.",
-    "description.lang": "Fill color of Collate.",
-    "descriptionLang.lang": "核对的填充颜色。"
+    "description.lang": "核对的填充颜色。"
   },
   "flowchart.sort": {
     "path": "flowchart|preferences|schema",
@@ -3251,8 +3245,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Sort.",
-    "description.lang": "Fill color of Sort.",
-    "descriptionLang.lang": "分类的填充颜色。"
+    "description.lang": "分类的填充颜色。"
   },
   "flowchart.merge": {
     "path": "flowchart|preferences|schema",
@@ -3268,8 +3261,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Merge.",
-    "description.lang": "Fill color of Merge.",
-    "descriptionLang.lang": "合并的填充颜色。"
+    "description.lang": "合并的填充颜色。"
   },
   "flowchart.extract": {
     "path": "flowchart|preferences|schema",
@@ -3285,8 +3277,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Extract.",
-    "description.lang": "Fill color of Extract.",
-    "descriptionLang.lang": "提取的填充颜色。"
+    "description.lang": "提取的填充颜色。"
   },
   "flowchart.stored-data": {
     "path": "flowchart|preferences|schema",
@@ -3302,8 +3293,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Stored Data.",
-    "description.lang": "Fill color of Stored Data.",
-    "descriptionLang.lang": "已存储数据的填充颜色。"
+    "description.lang": "已存储数据的填充颜色。"
   },
   "flowchart.database": {
     "path": "flowchart|preferences|schema",
@@ -3319,8 +3309,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Database.",
-    "description.lang": "Fill color of Database.",
-    "descriptionLang.lang": "数据库的填充颜色。"
+    "description.lang": "数据库的填充颜色。"
   },
   "flowchart.direct-access-storage": {
     "path": "flowchart|preferences|schema",
@@ -3336,8 +3325,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Direct Access Storage.",
-    "description.lang": "Fill color of Direct Access Storage.",
-    "descriptionLang.lang": "直接访问存储的填充颜色。"
+    "description.lang": "直接访问存储的填充颜色。"
   },
   "flowchart.internal-storage": {
     "path": "flowchart|preferences|schema",
@@ -3353,43 +3341,42 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Internal Storage.",
-    "description.lang": "Fill color of Internal Storage.",
-    "descriptionLang.lang": "内部存储的填充颜色。"
+    "description.lang": "内部存储的填充颜色。"
   },
   "fc.set-name": {
     "path": "flowchart|quickedits|components",
     "type": "flowchart",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "fc.add-outgoing-process": {
     "path": "flowchart|quickedits|components",
     "type": "flowchart",
     "labelType": "hint",
     "text": "Add Outgoing Process",
-    "text.lang": "Add Outgoing Process"
+    "text.lang": "添加出站流程"
   },
   "fc.add-incoming-process": {
     "path": "flowchart|quickedits|components",
     "type": "flowchart",
     "labelType": "hint",
     "text": "Add Incoming Process",
-    "text.lang": "Add Incoming Process"
+    "text.lang": "添加入站流程"
   },
   "fc.add-outgoing-decision": {
     "path": "flowchart|quickedits|components",
     "type": "flowchart",
     "labelType": "hint",
     "text": "Add Outgoing Decision",
-    "text.lang": "Add Outgoing Decision"
+    "text.lang": "添加出站决策"
   },
   "fc.add-incoming-decision": {
     "path": "flowchart|quickedits|components",
     "type": "flowchart",
     "labelType": "hint",
     "text": "Add Incoming Decision",
-    "text.lang": "Add Incoming Decision"
+    "text.lang": "添加入站决策"
   },
   "flowchart": {
     "path": "flowchart|toolbox|flowchart",
@@ -3596,7 +3583,7 @@
   },
   "gcp.diagram": {
     "text": "GCP Architecture Diagram",
-    "text.lang": "GCP Architecture Diagram",
+    "text.lang": "GCP架构图",
     "list": [
       {
         "path": "gcp|menus|menu|model.add-diagram",
@@ -3617,7 +3604,7 @@
   },
   "gcp.model": {
     "text": "GCP Model",
-    "text.lang": "GCP Model",
+    "text.lang": "GCP模型",
     "list": [
       {
         "path": "gcp|menus|menu|model.add",
@@ -3641,135 +3628,135 @@
     "type": "gcp",
     "labelType": "text",
     "text": "Path",
-    "text.lang": "Path"
+    "text.lang": "路径"
   },
   "gcp.path.lineStyle": {
     "path": "gcp|preferences|schema",
     "type": "gcp",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of Path.",
-    "description.lang": "Default line style of Path."
+    "description.lang": "路径的默认线条样式。"
   },
   "gcp.path.lineStyle.0": {
     "path": "gcp|preferences|schema|options",
     "type": "gcp",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "gcp.path.lineStyle.1": {
     "path": "gcp|preferences|schema|options",
     "type": "gcp",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "gcp.path.lineStyle.2": {
     "path": "gcp|preferences|schema|options",
     "type": "gcp",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "gcp.path.lineStyle.3": {
     "path": "gcp|preferences|schema|options",
     "type": "gcp",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "gcp.set-name": {
     "path": "gcp|quickedits|components",
     "type": "gcp",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "gcp.set-icon": {
     "path": "gcp|quickedits|components",
     "type": "gcp",
     "labelType": "hint",
     "text": "GCP Icon",
-    "text.lang": "GCP Icon"
+    "text.lang": "GCP图标"
   },
   "gcp.set-product-icon": {
     "path": "gcp|quickedits|components",
     "type": "gcp",
     "labelType": "hint",
     "text": "GCP Product Icon",
-    "text.lang": "GCP Product Icon"
+    "text.lang": "GCP产品图标"
   },
   "gcp.zone-type": {
     "path": "gcp|quickedits|components",
     "type": "gcp",
     "labelType": "hint",
     "text": "Zone Type",
-    "text.lang": "Zone Type"
+    "text.lang": "区域类型"
   },
   "3.project": {
     "path": "gcp|quickedits|components|3.project|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Project",
-    "text.lang": "Project"
+    "text.lang": "项目"
   },
   "3.logical-group": {
     "path": "gcp|quickedits|components|3.logical-group|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Logical Group",
-    "text.lang": "Logical Group"
+    "text.lang": "逻辑组"
   },
   "3.region": {
     "path": "gcp|quickedits|components|3.region|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Region",
-    "text.lang": "Region"
+    "text.lang": "区域"
   },
   "3.zone": {
     "path": "gcp|quickedits|components|3.zone|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Zone",
-    "text.lang": "Zone"
+    "text.lang": "可用区"
   },
   "3.sub-network": {
     "path": "gcp|quickedits|components|3.sub-network|items",
     "type": "gcp",
     "labelType": "text",
     "text": "SubNetwork",
-    "text.lang": "SubNetwork"
+    "text.lang": "子网"
   },
   "3.firewall": {
     "path": "gcp|quickedits|components|3.firewall|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Firewall",
-    "text.lang": "Firewall"
+    "text.lang": "防火墙"
   },
   "3.instance-group": {
     "path": "gcp|quickedits|components|3.instance-group|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Instance Group",
-    "text.lang": "Instance Group"
+    "text.lang": "实例组"
   },
   "3.replica-pool": {
     "path": "gcp|quickedits|components|3.replica-pool|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Replica Pool",
-    "text.lang": "Replica Pool"
+    "text.lang": "副本池"
   },
   "3.kubernetes-cluster": {
     "path": "gcp|quickedits|components|3.kubernetes-cluster|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Kubernetes Cluster",
-    "text.lang": "Kubernetes Cluster"
+    "text.lang": "Kubernetes集群"
   },
   "3.pod": {
     "path": "gcp|quickedits|components|3.pod|items",
@@ -3783,70 +3770,70 @@
     "type": "gcp",
     "labelType": "text",
     "text": "Account",
-    "text.lang": "Account"
+    "text.lang": "账户"
   },
   "3.optional": {
     "path": "gcp|quickedits|components|3.optional|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Optional Component",
-    "text.lang": "Optional Component"
+    "text.lang": "可选组件"
   },
   "3.system": {
     "path": "gcp|quickedits|components|3.system|items",
     "type": "gcp",
     "labelType": "text",
     "text": "System",
-    "text.lang": "System"
+    "text.lang": "系统"
   },
   "3.infrastructure-system": {
     "path": "gcp|quickedits|components|3.infrastructure-system|items",
     "type": "gcp",
     "labelType": "text",
     "text": "Infrastructure System",
-    "text.lang": "Infrastructure System"
+    "text.lang": "基础设施系统"
   },
   "3.on-premises": {
     "path": "gcp|quickedits|components|3.on-premises|items",
     "type": "gcp",
     "labelType": "text",
     "text": "On-Premises",
-    "text.lang": "On-Premises"
+    "text.lang": "本地部署"
   },
   "3.external-saas-providers": {
     "path": "gcp|quickedits|components|3.external-saas-providers|items",
     "type": "gcp",
     "labelType": "text",
     "text": "External SaaS Providers",
-    "text.lang": "External SaaS Providers"
+    "text.lang": "外部SaaS提供商"
   },
   "3.external-data-sources": {
     "path": "gcp|quickedits|components|3.external-data-sources|items",
     "type": "gcp",
     "labelType": "text",
     "text": "External Data Sources",
-    "text.lang": "External Data Sources"
+    "text.lang": "外部数据源"
   },
   "3.external-thirdparty-infrastructure": {
     "path": "gcp|quickedits|components|3.external-thirdparty-infrastructure|items",
     "type": "gcp",
     "labelType": "text",
     "text": "External 3rd-party Infrastructure",
-    "text.lang": "External 3rd-party Infrastructure"
+    "text.lang": "外部第三方基础设施"
   },
   "3.external-firstparty-infrastructure": {
     "path": "gcp|quickedits|components|3.external-firstparty-infrastructure|items",
     "type": "gcp",
     "labelType": "text",
     "text": "External 1st-party Infrastructure",
-    "text.lang": "External 1st-party Infrastructure"
+    "text.lang": "外部第一方基础设施"
   },
   "3.user": {
     "path": "gcp|quickedits|components|3.user|items",
     "type": "gcp",
     "labelType": "text",
     "text": "User",
-    "text.lang": "User"
+    "text.lang": "用户"
   },
   "gcp.elements": {
     "path": "gcp|toolbox|gcp.elements",
@@ -3860,39 +3847,39 @@
     "type": "gcp",
     "labelType": "label",
     "text": "Zone",
-    "text.lang": "Zone"
+    "text.lang": "区域"
   },
   "GCPUser": {
     "path": "gcp|toolbox|GCPUser|items",
     "type": "gcp",
     "labelType": "label",
     "text": "User",
-    "text.lang": "User"
+    "text.lang": "用户"
   },
   "GCPProduct": {
     "path": "gcp|toolbox|GCPProduct|items",
     "type": "gcp",
     "labelType": "label",
     "text": "Product",
-    "text.lang": "Product"
+    "text.lang": "产品"
   },
   "GCPService": {
     "path": "gcp|toolbox|GCPService|items",
     "type": "gcp",
     "labelType": "label",
     "text": "Service",
-    "text.lang": "Service"
+    "text.lang": "服务"
   },
   "GCPPath": {
     "path": "gcp|toolbox|GCPPath|items",
     "type": "gcp",
     "labelType": "label",
     "text": "Path",
-    "text.lang": "Path"
+    "text.lang": "路径"
   },
   "mindmap.diagram": {
     "text": "Mindmap Diagram",
-    "text.lang": "Mindmap Diagram",
+    "text.lang": "思维导图",
     "list": [
       {
         "path": "mindmap|menus|menu|model.add-diagram",
@@ -3913,7 +3900,7 @@
   },
   "mindmap.mindmap": {
     "text": "Mindmap",
-    "text.lang": "Mindmap",
+    "text.lang": "思维导图",
     "list": [
       {
         "path": "mindmap|menus|menu|model.add",
@@ -3937,111 +3924,111 @@
     "type": "mindmap",
     "labelType": "text",
     "text": "Edge",
-    "text.lang": "Edge"
+    "text.lang": "边"
   },
   "mindmap.edge.lineStyle": {
     "path": "mindmap|preferences|schema",
     "type": "mindmap",
     "labelType": "text",
     "text": "Line Style",
-    "text.lang": "Line Style",
+    "text.lang": "线条样式",
     "description": "Default line style of edge.",
-    "description.lang": "Default line style of edge."
+    "description.lang": "边的默认线条样式。"
   },
   "mindmap.edge.lineStyle.0": {
     "path": "mindmap|preferences|schema|options",
     "type": "mindmap",
     "labelType": "text",
     "text": "Rectilinear",
-    "text.lang": "Rectilinear"
+    "text.lang": "直线"
   },
   "mindmap.edge.lineStyle.1": {
     "path": "mindmap|preferences|schema|options",
     "type": "mindmap",
     "labelType": "text",
     "text": "Oblique",
-    "text.lang": "Oblique"
+    "text.lang": "斜线"
   },
   "mindmap.edge.lineStyle.2": {
     "path": "mindmap|preferences|schema|options",
     "type": "mindmap",
     "labelType": "text",
     "text": "Rounded Rectilinear",
-    "text.lang": "Rounded Rectilinear"
+    "text.lang": "圆角直线"
   },
   "mindmap.edge.lineStyle.3": {
     "path": "mindmap|preferences|schema|options",
     "type": "mindmap",
     "labelType": "text",
     "text": "Curve",
-    "text.lang": "Curve"
+    "text.lang": "曲线"
   },
   "mindmap.node": {
     "path": "mindmap|preferences|schema",
     "type": "mindmap",
     "labelType": "text",
     "text": "Node",
-    "text.lang": "Node"
+    "text.lang": "节点"
   },
   "mindmap.node.fillColor": {
     "path": "mindmap|preferences|schema",
     "type": "mindmap",
     "labelType": "text",
     "text": "Fill Color",
-    "text.lang": "Fill Color",
+    "text.lang": "填充颜色",
     "description": "Fill color of Node.",
-    "description.lang": "Fill color of Node."
+    "description.lang": "节点的填充颜色。"
   },
   "mindmap.node.lineColor": {
     "path": "mindmap|preferences|schema",
     "type": "mindmap",
     "labelType": "text",
     "text": "Line Color",
-    "text.lang": "Line Color",
+    "text.lang": "线条颜色",
     "description": "Line color of Node.",
-    "description.lang": "Line color of Node."
+    "description.lang": "节点的线条颜色。"
   },
   "mindmap.set-name": {
     "path": "mindmap|quickedits|components",
     "type": "mindmap",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "mindmap.add-node-right": {
     "path": "mindmap|quickedits|components",
     "type": "mindmap",
     "labelType": "hint",
     "text": "Add Node Right",
-    "text.lang": "Add Node Right"
+    "text.lang": "添加右节点"
   },
   "mindmap.add-node-left": {
     "path": "mindmap|quickedits|components",
     "type": "mindmap",
     "labelType": "hint",
     "text": "Add Node Left",
-    "text.lang": "Add Node Left"
+    "text.lang": "添加左节点"
   },
   "mindmap": {
     "path": "mindmap|toolbox|mindmap",
     "type": "mindmap",
     "labelType": "label",
     "text": "Mindmap",
-    "text.lang": "Mindmap"
+    "text.lang": "思维导图"
   },
   "MMNode": {
     "path": "mindmap|toolbox|MMNode|items",
     "type": "mindmap",
     "labelType": "label",
     "text": "Node",
-    "text.lang": "Node"
+    "text.lang": "节点"
   },
   "MMEdge": {
     "path": "mindmap|toolbox|MMEdge|items",
     "type": "mindmap",
     "labelType": "label",
     "text": "Edge",
-    "text.lang": "Edge"
+    "text.lang": "边"
   },
   "sysml.requirement-diagram": {
     "text": "Requirement Diagram",
@@ -4155,7 +4142,8 @@
         "path": "sysml|toolbox|sysml.requirement",
         "type": "sysml",
         "labelType": "label",
-        "text": "Requirements"
+        "text": "Requirements",
+        "text.lang": "需求"
       }
     ]
   },
@@ -4213,7 +4201,8 @@
         "path": "sysml|preferences|schema",
         "type": "sysml",
         "labelType": "text",
-        "text": "ValueType"
+        "text": "ValueType",
+        "text.lang": "值类型"
       }
     ]
   },
@@ -4240,7 +4229,8 @@
         "path": "sysml|preferences|schema",
         "type": "sysml",
         "labelType": "text",
-        "text": "InterfaceBlock"
+        "text": "InterfaceBlock",
+        "text.lang": "接口块"
       }
     ]
   },
@@ -4267,7 +4257,8 @@
         "path": "sysml|preferences|schema",
         "type": "sysml",
         "labelType": "text",
-        "text": "ConstraintBlock"
+        "text": "ConstraintBlock",
+        "text.lang": "约束块"
       }
     ]
   },
@@ -4584,8 +4575,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Requirement.",
-    "description.lang": "Fill color of Requirement.",
-    "descriptionLang.lang": "需求的填充颜色。"
+    "description.lang": "需求的填充颜色。"
   },
   "sysml.block.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4594,8 +4584,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Block.",
-    "description.lang": "Fill color of Block.",
-    "descriptionLang.lang": "块的填充颜色。"
+    "description.lang": "块的填充颜色。"
   },
   "sysml.block.suppressConstraints": {
     "path": "sysml|preferences|schema",
@@ -4604,8 +4593,7 @@
     "text": "Suppress Constraints",
     "text.lang": "隐藏约束",
     "description": "Suppress constraint compartment of Block.",
-    "description.lang": "Suppress constraint compartment of Block.",
-    "descriptionLang.lang": "隐藏块的约束。"
+    "description.lang": "隐藏块的约束。"
   },
   "sysml.block.suppressParts": {
     "path": "sysml|preferences|schema",
@@ -4614,8 +4602,7 @@
     "text": "Suppress Parts",
     "text.lang": "隐藏部件",
     "description": "Suppress part compartment of Block.",
-    "description.lang": "Suppress part compartment of Block.",
-    "descriptionLang.lang": "隐藏块的部件。"
+    "description.lang": "隐藏块的部件。"
   },
   "sysml.block.suppressPorts": {
     "path": "sysml|preferences|schema",
@@ -4624,8 +4611,7 @@
     "text": "Suppress Ports",
     "text.lang": "隐藏端口",
     "description": "Suppress port compartment of Block.",
-    "description.lang": "Suppress port compartment of Block.",
-    "descriptionLang.lang": "隐藏块的端口。"
+    "description.lang": "隐藏块的端口。"
   },
   "sysml.block.suppressReferences": {
     "path": "sysml|preferences|schema",
@@ -4634,8 +4620,7 @@
     "text": "Suppress References",
     "text.lang": "隐藏引用",
     "description": "Suppress reference compartment of Block.",
-    "description.lang": "Suppress reference compartment of Block.",
-    "descriptionLang.lang": "隐藏块的引用。"
+    "description.lang": "隐藏块的引用。"
   },
   "sysml.block.suppressValues": {
     "path": "sysml|preferences|schema",
@@ -4644,8 +4629,7 @@
     "text": "Suppress Values",
     "text.lang": "隐藏值",
     "description": "Suppress value compartment of Block.",
-    "description.lang": "Suppress value compartment of Block.",
-    "descriptionLang.lang": "隐藏块的值。"
+    "description.lang": "隐藏块的值。"
   },
   "sysml.block.suppressFlowProperties": {
     "path": "sysml|preferences|schema",
@@ -4654,8 +4638,7 @@
     "text": "Suppress FlowProperties",
     "text.lang": "隐藏流特性",
     "description": "Suppress flow property compartment of Block.",
-    "description.lang": "Suppress flow property compartment of Block.",
-    "descriptionLang.lang": "隐藏块的流特性。"
+    "description.lang": "隐藏块的流特性。"
   },
   "sysml.interface-block.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4664,8 +4647,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of InterfaceBlock.",
-    "description.lang": "Fill color of InterfaceBlock.",
-    "descriptionLang.lang": "接口块的填充颜色。"
+    "description.lang": "接口块的填充颜色。"
   },
   "sysml.constraint-block.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4674,8 +4656,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of ConstraintBlock.",
-    "description.lang": "Fill color of ConstraintBlock.",
-    "descriptionLang.lang": "约束块的填充颜色。"
+    "description.lang": "约束块的填充颜色。"
   },
   "sysml.value-type.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4684,8 +4665,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of ValueType.",
-    "description.lang": "Fill color of ValueType.",
-    "descriptionLang.lang": "值类型的填充颜色。"
+    "description.lang": "值类型的填充颜色。"
   },
   "sysml.part.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4694,8 +4674,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Part.",
-    "description.lang": "Fill color of Part.",
-    "descriptionLang.lang": "部件的填充颜色。"
+    "description.lang": "部件的填充颜色。"
   },
   "sysml.port.fillColor": {
     "path": "sysml|preferences|schema",
@@ -4704,8 +4683,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Port.",
-    "description.lang": "Fill color of Port.",
-    "descriptionLang.lang": "端口的填充颜色。"
+    "description.lang": "端口的填充颜色。"
   },
   "sysml.constraint-property": {
     "path": "sysml|preferences|schema",
@@ -4721,8 +4699,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of ConstraintProperty.",
-    "description.lang": "Fill color of ConstraintProperty.",
-    "descriptionLang.lang": "约束特性的填充颜色。"
+    "description.lang": "约束特性的填充颜色。"
   },
   "sysml.constraint-parameter": {
     "path": "sysml|preferences|schema",
@@ -4738,134 +4715,133 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of ConstraintParameter.",
-    "description.lang": "Fill color of ConstraintParameter.",
-    "descriptionLang.lang": "约束参数的填充颜色。"
+    "description.lang": "约束参数的填充颜色。"
   },
   "sysml.add-sub-requirement": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Sub-Requirement",
-    "text.lang": "Add Sub-Requirement"
+    "text.lang": "添加子需求"
   },
   "sysml.add-constraint-property": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Constraint Property",
-    "text.lang": "Add Constraint Property"
+    "text.lang": "添加约束属性"
   },
   "sysml.add-part": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Part",
-    "text.lang": "Add Part"
+    "text.lang": "添加部件"
   },
   "sysml.add-reference": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Reference",
-    "text.lang": "Add Reference"
+    "text.lang": "添加引用"
   },
   "sysml.add-value": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Value",
-    "text.lang": "Add Value"
+    "text.lang": "添加值"
   },
   "sysml.add-property": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Property",
-    "text.lang": "Add Property"
+    "text.lang": "添加属性"
   },
   "sysml.add-flow-property": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Flow Property",
-    "text.lang": "Add Flow Property"
+    "text.lang": "添加流属性"
   },
   "sysml.add-parameter": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Parameter",
-    "text.lang": "Add Parameter"
+    "text.lang": "添加参数"
   },
   "sysml.add-composited-block": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Composited Block",
-    "text.lang": "Add Composited Block"
+    "text.lang": "添加复合块"
   },
   "sysml.add-port": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Port",
-    "text.lang": "Add Port"
+    "text.lang": "添加端口"
   },
   "sysml.select-block": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Select Block",
-    "text.lang": "Select Block"
+    "text.lang": "选择块"
   },
   "sysml.create-block": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Create Block",
-    "text.lang": "Create Block"
+    "text.lang": "创建块"
   },
   "sysml.select-value-type": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Select Value Type",
-    "text.lang": "Select Value Type"
+    "text.lang": "选择值类型"
   },
   "sysml.create-value-type": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Create Value Type",
-    "text.lang": "Create Value Type"
+    "text.lang": "创建值类型"
   },
   "sysml.create-item-flow": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Create Item Flow",
-    "text.lang": "Create Item Flow"
+    "text.lang": "创建项目流"
   },
   "sysml.select-constraint-block": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Select ConstraintBlock",
-    "text.lang": "Select ConstraintBlock"
+    "text.lang": "选择约束块"
   },
   "sysml.create-constraint-block": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Create ConstraintBlock",
-    "text.lang": "Create ConstraintBlock"
+    "text.lang": "创建约束块"
   },
   "sysml.add-constraint-parameter": {
     "path": "sysml|quickedits|components",
     "type": "sysml",
     "labelType": "hint",
     "text": "Add Constraint Parameter",
-    "text.lang": "Add Constraint Parameter"
+    "text.lang": "添加约束参数"
   },
   "UMLPackage": {
     "text": "Package",
@@ -6177,7 +6153,8 @@
         "path": "uml|toolbox|uml.package",
         "type": "uml",
         "labelType": "label",
-        "text": "Packages"
+        "text": "Packages",
+        "text.lang": "包"
       }
     ]
   },
@@ -6204,7 +6181,8 @@
         "path": "uml|toolbox|uml.profile",
         "type": "uml",
         "labelType": "label",
-        "text": "Profiles"
+        "text": "Profiles",
+        "text.lang": "配置文件"
       }
     ]
   },
@@ -6472,13 +6450,15 @@
         "path": "uml|preferences|schema",
         "type": "uml",
         "labelType": "text",
-        "text": "Use Case"
+        "text": "Use Case",
+        "text.lang": "用例"
       },
       {
         "path": "uml|toolbox|uml.usecase",
         "type": "uml",
         "labelType": "label",
-        "text": "Use Cases"
+        "text": "Use Cases",
+        "text.lang": "用例"
       }
     ]
   },
@@ -6893,8 +6873,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Package.",
-    "description.lang": "Fill color of Package.",
-    "descriptionLang.lang": "包的填充颜色。"
+    "description.lang": "包的填充颜色。"
   },
   "uml.model.fillColor": {
     "path": "uml|preferences|schema",
@@ -6903,8 +6882,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Model.",
-    "description.lang": "Fill color of Model.",
-    "descriptionLang.lang": "模型的填充颜色。"
+    "description.lang": "模型的填充颜色。"
   },
   "uml.subsystem.fillColor": {
     "path": "uml|preferences|schema",
@@ -6913,8 +6891,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Subsystem.",
-    "description.lang": "Fill color of Subsystem.",
-    "descriptionLang.lang": "子系统的填充颜色。"
+    "description.lang": "子系统的填充颜色。"
   },
   "uml.class.fillColor": {
     "path": "uml|preferences|schema",
@@ -6923,8 +6900,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Class.",
-    "description.lang": "Fill color of Class.",
-    "descriptionLang.lang": "类的填充颜色。"
+    "description.lang": "类的填充颜色。"
   },
   "uml.class.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -6933,8 +6909,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Class.",
-    "description.lang": "Default stereotype display of Class.",
-    "descriptionLang.lang": "类的默认版型显示。"
+    "description.lang": "类的默认版型显示。"
   },
   "uml.class.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -6985,8 +6960,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Class.",
-    "description.lang": "Suppress attributes of Class.",
-    "descriptionLang.lang": "隐藏类的属性。"
+    "description.lang": "隐藏类的属性。"
   },
   "uml.class.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -6995,8 +6969,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Class.",
-    "description.lang": "Suppress operations of Class.",
-    "descriptionLang.lang": "隐藏类的方法。"
+    "description.lang": "隐藏类的方法。"
   },
   "uml.interface.fillColor": {
     "path": "uml|preferences|schema",
@@ -7005,8 +6978,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Interface.",
-    "description.lang": "Fill color of Interface.",
-    "descriptionLang.lang": "接口的填充颜色。"
+    "description.lang": "接口的填充颜色。"
   },
   "uml.interface.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7015,8 +6987,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Interface.",
-    "description.lang": "Default stereotype display of Interface.",
-    "descriptionLang.lang": "接口的默认版型显示。"
+    "description.lang": "接口的默认版型显示。"
   },
   "uml.interface.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7067,8 +7038,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Interface.",
-    "description.lang": "Suppress attributes of Interface.",
-    "descriptionLang.lang": "隐藏接口的属性。"
+    "description.lang": "隐藏接口的属性。"
   },
   "uml.interface.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7077,8 +7047,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Interface.",
-    "description.lang": "Suppress operations of Interface.",
-    "descriptionLang.lang": "隐藏接口的方法。"
+    "description.lang": "隐藏接口的方法。"
   },
   "uml.signal.fillColor": {
     "path": "uml|preferences|schema",
@@ -7087,8 +7056,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Signal.",
-    "description.lang": "Fill color of Signal.",
-    "descriptionLang.lang": "信号的填充颜色。"
+    "description.lang": "信号的填充颜色。"
   },
   "uml.datatype.fillColor": {
     "path": "uml|preferences|schema",
@@ -7097,8 +7065,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of DataType.",
-    "description.lang": "Fill color of DataType.",
-    "descriptionLang.lang": "数据类型的填充颜色。"
+    "description.lang": "数据类型的填充颜色。"
   },
   "uml.primitivetype": {
     "path": "uml|preferences|schema",
@@ -7114,8 +7081,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Primitive Type.",
-    "description.lang": "Fill color of Primitive Type.",
-    "descriptionLang.lang": "原始类型的填充颜色。"
+    "description.lang": "原始类型的填充颜色。"
   },
   "uml.enumeration.fillColor": {
     "path": "uml|preferences|schema",
@@ -7124,8 +7090,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Enumeration.",
-    "description.lang": "Fill color of Enumeration.",
-    "descriptionLang.lang": "枚举的填充颜色。"
+    "description.lang": "枚举的填充颜色。"
   },
   "uml.enumeration.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7134,8 +7099,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Enumeration.",
-    "description.lang": "Default stereotype display of Enumeration.",
-    "descriptionLang.lang": "枚举的默认版型显示。"
+    "description.lang": "枚举的默认版型显示。"
   },
   "uml.enumeration.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7186,8 +7150,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Enumeration.",
-    "description.lang": "Suppress attributes of Enumeration.",
-    "descriptionLang.lang": "隐藏枚举的属性。"
+    "description.lang": "隐藏枚举的属性。"
   },
   "uml.enumeration.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7196,8 +7159,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Enumeration.",
-    "description.lang": "Suppress operations of Enumeration.",
-    "descriptionLang.lang": "隐藏枚举的方法。"
+    "description.lang": "隐藏枚举的方法。"
   },
   "uml.enumeration.suppressLiterals": {
     "path": "uml|preferences|schema",
@@ -7206,8 +7168,7 @@
     "text": "Suppress Literals",
     "text.lang": "隐藏文字",
     "description": "Suppress literals of Enumeration.",
-    "description.lang": "Suppress literals of Enumeration.",
-    "descriptionLang.lang": "隐藏枚举的文字。"
+    "description.lang": "隐藏枚举的文字。"
   },
   "uml.port.fillColor": {
     "path": "uml|preferences|schema",
@@ -7216,8 +7177,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Port.",
-    "description.lang": "Fill color of Port.",
-    "descriptionLang.lang": "端口的填充颜色。"
+    "description.lang": "端口的填充颜色。"
   },
   "uml.part": {
     "path": "uml|preferences|schema",
@@ -7233,8 +7193,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Part.",
-    "description.lang": "Fill color of Part.",
-    "descriptionLang.lang": "部件的填充颜色。"
+    "description.lang": "部件的填充颜色。"
   },
   "uml.collaboration.fillColor": {
     "path": "uml|preferences|schema",
@@ -7243,8 +7202,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Collaboration.",
-    "description.lang": "Fill color of Collaboration.",
-    "descriptionLang.lang": "协作的填充颜色。"
+    "description.lang": "协作的填充颜色。"
   },
   "uml.collaborationuse": {
     "path": "uml|preferences|schema",
@@ -7260,8 +7218,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Collaboration Use.",
-    "description.lang": "Fill color of Collaboration Use.",
-    "descriptionLang.lang": "协作使用的填充颜色。"
+    "description.lang": "协作使用的填充颜色。"
   },
   "uml.artifact.fillColor": {
     "path": "uml|preferences|schema",
@@ -7270,8 +7227,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Artifact.",
-    "description.lang": "Fill color of Artifact.",
-    "descriptionLang.lang": "工件的填充颜色。"
+    "description.lang": "工件的填充颜色。"
   },
   "uml.artifact.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7280,8 +7236,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Artifact.",
-    "description.lang": "Default stereotype display of Artifact.",
-    "descriptionLang.lang": "工件的默认版型显示。"
+    "description.lang": "工件的默认版型显示。"
   },
   "uml.artifact.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7332,8 +7287,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Artifact.",
-    "description.lang": "Suppress attributes of Artifact.",
-    "descriptionLang.lang": "隐藏工件的属性。"
+    "description.lang": "隐藏工件的属性。"
   },
   "uml.artifact.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7342,8 +7296,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Artifact.",
-    "description.lang": "Suppress operations of Artifact.",
-    "descriptionLang.lang": "隐藏工件的方法。"
+    "description.lang": "隐藏工件的方法。"
   },
   "uml.component.fillColor": {
     "path": "uml|preferences|schema",
@@ -7352,8 +7305,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Component.",
-    "description.lang": "Fill color of Component.",
-    "descriptionLang.lang": "组件的填充颜色。"
+    "description.lang": "组件的填充颜色。"
   },
   "uml.component.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7362,8 +7314,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Component.",
-    "description.lang": "Default stereotype display of Component.",
-    "descriptionLang.lang": "组件的默认版型显示。"
+    "description.lang": "组件的默认版型显示。"
   },
   "uml.component.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7414,8 +7365,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Component.",
-    "description.lang": "Suppress attributes of Component.",
-    "descriptionLang.lang": "隐藏组件的属性。"
+    "description.lang": "隐藏组件的属性。"
   },
   "uml.component.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7424,8 +7374,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Component.",
-    "description.lang": "Suppress operations of Component.",
-    "descriptionLang.lang": "隐藏组件的方法。"
+    "description.lang": "隐藏组件的方法。"
   },
   "uml.node.fillColor": {
     "path": "uml|preferences|schema",
@@ -7434,8 +7383,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Node.",
-    "description.lang": "Fill color of Node.",
-    "descriptionLang.lang": "节点的填充颜色。"
+    "description.lang": "节点的填充颜色。"
   },
   "uml.node.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7444,8 +7392,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Node.",
-    "description.lang": "Default stereotype display of Node.",
-    "descriptionLang.lang": "节点的默认版型显示。"
+    "description.lang": "节点的默认版型显示。"
   },
   "uml.node.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7496,8 +7443,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Node.",
-    "description.lang": "Suppress attributes of Node.",
-    "descriptionLang.lang": "隐藏节点的属性。"
+    "description.lang": "隐藏节点的属性。"
   },
   "uml.node.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7506,8 +7452,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Node.",
-    "description.lang": "Suppress operations of Node.",
-    "descriptionLang.lang": "隐藏节点的方法。"
+    "description.lang": "隐藏节点的方法。"
   },
   "uml.object": {
     "path": "uml|preferences|schema",
@@ -7523,8 +7468,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Object.",
-    "description.lang": "Fill color of Object.",
-    "descriptionLang.lang": "对象的填充颜色。"
+    "description.lang": "对象的填充颜色。"
   },
   "uml.artifactinstance": {
     "path": "uml|preferences|schema",
@@ -7540,8 +7484,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Artifact Instance.",
-    "description.lang": "Fill color of Artifact Instance.",
-    "descriptionLang.lang": "工件实例的填充颜色。"
+    "description.lang": "工件实例的填充颜色。"
   },
   "uml.componentinstance": {
     "path": "uml|preferences|schema",
@@ -7557,8 +7500,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Component Instance.",
-    "description.lang": "Fill color of Component Instance.",
-    "descriptionLang.lang": "组件实例的填充颜色。"
+    "description.lang": "组件实例的填充颜色。"
   },
   "uml.nodeinstance": {
     "path": "uml|preferences|schema",
@@ -7574,8 +7516,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Node Instance.",
-    "description.lang": "Fill color of Node Instance.",
-    "descriptionLang.lang": "节点实例的填充颜色。"
+    "description.lang": "节点实例的填充颜色。"
   },
   "uml.usecase.fillColor": {
     "path": "uml|preferences|schema",
@@ -7584,8 +7525,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Use Case.",
-    "description.lang": "Fill color of Use Case.",
-    "descriptionLang.lang": "用例的填充颜色。"
+    "description.lang": "用例的填充颜色。"
   },
   "uml.usecase.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7594,8 +7534,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Use Case.",
-    "description.lang": "Default stereotype display of Use Case.",
-    "descriptionLang.lang": "用例的默认版型显示。"
+    "description.lang": "用例的默认版型显示。"
   },
   "uml.usecase.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7646,8 +7585,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Use Case.",
-    "description.lang": "Suppress attributes of Use Case.",
-    "descriptionLang.lang": "隐藏用例的属性。"
+    "description.lang": "隐藏用例的属性。"
   },
   "uml.usecase.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7656,8 +7594,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Use Case.",
-    "description.lang": "Suppress operations of Use Case.",
-    "descriptionLang.lang": "隐藏用例的方法。"
+    "description.lang": "隐藏用例的方法。"
   },
   "uml.actor.fillColor": {
     "path": "uml|preferences|schema",
@@ -7666,8 +7603,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Actor.",
-    "description.lang": "Fill color of Actor.",
-    "descriptionLang.lang": "参与者的填充颜色。"
+    "description.lang": "参与者的填充颜色。"
   },
   "uml.actor.stereotypeDisplay": {
     "path": "uml|preferences|schema",
@@ -7676,8 +7612,7 @@
     "text": "Stereotype Display",
     "text.lang": "版型显示",
     "description": "Default stereotype display of Actor.",
-    "description.lang": "Default stereotype display of Actor.",
-    "descriptionLang.lang": "参与者的默认版型显示。"
+    "description.lang": "参与者的默认版型显示。"
   },
   "uml.actor.stereotypeDisplay.none": {
     "path": "uml|preferences|schema|options",
@@ -7728,8 +7663,7 @@
     "text": "Suppress Attributes",
     "text.lang": "隐藏属性",
     "description": "Suppress attributes of Actor.",
-    "description.lang": "Suppress attributes of Actor.",
-    "descriptionLang.lang": "隐藏参与者的属性。"
+    "description.lang": "隐藏参与者的属性。"
   },
   "uml.actor.suppressOperations": {
     "path": "uml|preferences|schema",
@@ -7738,8 +7672,7 @@
     "text": "Suppress Operations",
     "text.lang": "隐藏方法",
     "description": "Suppress operations of Actor.",
-    "description.lang": "Suppress operations of Actor.",
-    "descriptionLang.lang": "隐藏参与者的方法。"
+    "description.lang": "隐藏参与者的方法。"
   },
   "uml.lifeline": {
     "path": "uml|preferences|schema",
@@ -7755,8 +7688,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Lifeline.",
-    "description.lang": "Fill color of Lifeline.",
-    "descriptionLang.lang": "生命线的填充颜色。"
+    "description.lang": "生命线的填充颜色。"
   },
   "uml.state.fillColor": {
     "path": "uml|preferences|schema",
@@ -7765,8 +7697,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of State.",
-    "description.lang": "Fill color of State.",
-    "descriptionLang.lang": "状态的填充颜色。"
+    "description.lang": "状态的填充颜色。"
   },
   "uml.action.fillColor": {
     "path": "uml|preferences|schema",
@@ -7775,8 +7706,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Action.",
-    "description.lang": "Fill color of Action.",
-    "descriptionLang.lang": "动作的填充颜色。"
+    "description.lang": "动作的填充颜色。"
   },
   "uml.objectnode": {
     "path": "uml|preferences|schema",
@@ -7792,8 +7722,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Object Node.",
-    "description.lang": "Fill color of Object Node.",
-    "descriptionLang.lang": "对象节点的填充颜色。"
+    "description.lang": "对象节点的填充颜色。"
   },
   "uml.metaclass": {
     "path": "uml|preferences|schema",
@@ -7809,8 +7738,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of MetaClass.",
-    "description.lang": "Fill color of MetaClass.",
-    "descriptionLang.lang": "元类的填充颜色。"
+    "description.lang": "元类的填充颜色。"
   },
   "uml.stereotype.fillColor": {
     "path": "uml|preferences|schema",
@@ -7819,8 +7747,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Stereotype.",
-    "description.lang": "Fill color of Stereotype.",
-    "descriptionLang.lang": "版型的填充颜色。"
+    "description.lang": "版型的填充颜色。"
   },
   "uml.note": {
     "path": "uml|preferences|schema",
@@ -7836,8 +7763,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Fill color of Note.",
-    "description.lang": "Fill color of Note.",
-    "descriptionLang.lang": "备注的填充颜色。"
+    "description.lang": "备注的填充颜色。"
   },
   "uml.name-expression": {
     "path": "uml|quickedits|components",
@@ -7907,28 +7833,28 @@
     "type": "uml",
     "labelType": "text",
     "text": "public",
-    "text.lang": "public"
+    "text.lang": "公开"
   },
   "8.protected": {
     "path": "uml|quickedits|components|8.protected|items",
     "type": "uml",
     "labelType": "text",
     "text": "protected",
-    "text.lang": "protected"
+    "text.lang": "保护"
   },
   "8.private": {
     "path": "uml|quickedits|components|8.private|items",
     "type": "uml",
     "labelType": "text",
     "text": "private",
-    "text.lang": "private"
+    "text.lang": "私有"
   },
   "8.package": {
     "path": "uml|quickedits|components|8.package|items",
     "type": "uml",
     "labelType": "text",
     "text": "package",
-    "text.lang": "package"
+    "text.lang": "包"
   },
   "uml.add-attribute": {
     "path": "uml|quickedits|components",
@@ -8478,42 +8404,42 @@
     "type": "uml",
     "labelType": "text",
     "text": "synchCall",
-    "text.lang": "synchCall"
+    "text.lang": "同步调用"
   },
   "73.asynchCall": {
     "path": "uml|quickedits|components|73.asynchCall|items",
     "type": "uml",
     "labelType": "text",
     "text": "asynchCall",
-    "text.lang": "asynchCall"
+    "text.lang": "异步调用"
   },
   "73.asynchSignal": {
     "path": "uml|quickedits|components|73.asynchSignal|items",
     "type": "uml",
     "labelType": "text",
     "text": "asynchSignal",
-    "text.lang": "asynchSignal"
+    "text.lang": "异步信号"
   },
   "73.createMessage": {
     "path": "uml|quickedits|components|73.createMessage|items",
     "type": "uml",
     "labelType": "text",
     "text": "createMessage",
-    "text.lang": "createMessage"
+    "text.lang": "创建消息"
   },
   "73.deleteMessage": {
     "path": "uml|quickedits|components|73.deleteMessage|items",
     "type": "uml",
     "labelType": "text",
     "text": "deleteMessage",
-    "text.lang": "deleteMessage"
+    "text.lang": "删除消息"
   },
   "73.reply": {
     "path": "uml|quickedits|components|73.reply|items",
     "type": "uml",
     "labelType": "text",
     "text": "reply",
-    "text.lang": "reply"
+    "text.lang": "回复"
   },
   "uml.select-operation": {
     "path": "uml|quickedits|components",
@@ -9763,7 +9689,7 @@
   },
   "wireframe.diagram": {
     "text": "Wireframe Diagram",
-    "text.lang": "Wireframe Diagram",
+    "text.lang": "线框图",
     "list": [
       {
         "path": "wireframe|menus|menu|model.add-diagram",
@@ -9784,7 +9710,7 @@
   },
   "wireframe.wireframe": {
     "text": "Wireframe",
-    "text.lang": "Wireframe",
+    "text.lang": "线框",
     "list": [
       {
         "path": "wireframe|menus|menu|model.add",
@@ -9808,161 +9734,161 @@
     "type": "wireframe",
     "labelType": "hint",
     "text": "name",
-    "text.lang": "name"
+    "text.lang": "名称"
   },
   "wireframe.add-tab": {
     "path": "wireframe|quickedits|components",
     "type": "wireframe",
     "labelType": "hint",
     "text": "Add Tab",
-    "text.lang": "Add Tab"
+    "text.lang": "添加标签"
   },
   "wireframe.frames": {
     "path": "wireframe|toolbox|wireframe.frames",
     "type": "wireframe",
     "labelType": "label",
     "text": "Wireframe Frames",
-    "text.lang": "Wireframe Frames"
+    "text.lang": "线框框架"
   },
   "WFFrame": {
     "path": "wireframe|toolbox|WFFrame|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Frame",
-    "text.lang": "Frame"
+    "text.lang": "框架"
   },
   "WFMobileFrame": {
     "path": "wireframe|toolbox|WFMobileFrame|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Frame (Mobile)",
-    "text.lang": "Frame (Mobile)"
+    "text.lang": "框架(移动)"
   },
   "WFWebFrame": {
     "path": "wireframe|toolbox|WFWebFrame|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Frame (Web)",
-    "text.lang": "Frame (Web)"
+    "text.lang": "框架(Web)"
   },
   "WFDesktopFrame": {
     "path": "wireframe|toolbox|WFDesktopFrame|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Frame (Desktop)",
-    "text.lang": "Frame (Desktop)"
+    "text.lang": "框架(桌面)"
   },
   "wireframe.components": {
     "path": "wireframe|toolbox|wireframe.components",
     "type": "wireframe",
     "labelType": "label",
     "text": "Wireframe Components",
-    "text.lang": "Wireframe Components"
+    "text.lang": "线框组件"
   },
   "WFButton": {
     "path": "wireframe|toolbox|WFButton|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Button",
-    "text.lang": "Button"
+    "text.lang": "按钮"
   },
   "WFText": {
     "path": "wireframe|toolbox|WFText|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Text",
-    "text.lang": "Text"
+    "text.lang": "文本"
   },
   "WFRadio": {
     "path": "wireframe|toolbox|WFRadio|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Radio",
-    "text.lang": "Radio"
+    "text.lang": "单选"
   },
   "WFCheckbox": {
     "path": "wireframe|toolbox|WFCheckbox|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Checkbox",
-    "text.lang": "Checkbox"
+    "text.lang": "复选框"
   },
   "WFSwitch": {
     "path": "wireframe|toolbox|WFSwitch|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Switch",
-    "text.lang": "Switch"
+    "text.lang": "开关组件"
   },
   "WFLink": {
     "path": "wireframe|toolbox|WFLink|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Link",
-    "text.lang": "Link"
+    "text.lang": "链接组件"
   },
   "WFTabList": {
     "path": "wireframe|toolbox|WFTabList|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Tab List",
-    "text.lang": "Tab List"
+    "text.lang": "选项卡列表"
   },
   "WFTab": {
     "path": "wireframe|toolbox|WFTab|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Tab",
-    "text.lang": "Tab"
+    "text.lang": "选项卡"
   },
   "WFInput": {
     "path": "wireframe|toolbox|WFInput|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Input",
-    "text.lang": "Input"
+    "text.lang": "输入框"
   },
   "WFDropdown": {
     "path": "wireframe|toolbox|WFDropdown|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Dropdown",
-    "text.lang": "Dropdown"
+    "text.lang": "下拉菜单"
   },
   "WFPanel": {
     "path": "wireframe|toolbox|WFPanel|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Panel",
-    "text.lang": "Panel"
+    "text.lang": "面板"
   },
   "WFImage": {
     "path": "wireframe|toolbox|WFImage|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Image",
-    "text.lang": "Image"
+    "text.lang": "图片"
   },
   "WFSeparator": {
     "path": "wireframe|toolbox|WFSeparator|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Separator",
-    "text.lang": "Separator"
+    "text.lang": "分隔线"
   },
   "WFAvatar": {
     "path": "wireframe|toolbox|WFAvatar|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Avatar",
-    "text.lang": "Avatar"
+    "text.lang": "头像"
   },
   "WFSlider": {
     "path": "wireframe|toolbox|WFSlider|items",
     "type": "wireframe",
     "labelType": "label",
     "text": "Slider",
-    "text.lang": "Slider"
+    "text.lang": "滑动条"
   },
   "app": {
     "path": "darwin|menus|menu",
@@ -10026,13 +9952,15 @@
         "path": "linux|menus|menu|file",
         "type": "linux",
         "labelType": "label",
-        "text": "Exit"
+        "text": "Exit",
+        "text.lang": "退出"
       },
       {
         "path": "win32|menus|menu|file",
         "type": "win32",
         "labelType": "label",
-        "text": "Exit"
+        "text": "Exit",
+        "text.lang": "退出"
       }
     ]
   },
@@ -10311,7 +10239,7 @@
   },
   "file.export-diagram-as.png": {
     "text": "PNG...",
-    "text.lang": "PNG...",
+    "text.lang": "导出为PNG...",
     "list": [
       {
         "path": "darwin|menus|menu|file|file.export-diagram-as",
@@ -10332,7 +10260,7 @@
   },
   "file.export-diagram-as.jpeg": {
     "text": "JPEG...",
-    "text.lang": "JPEG...",
+    "text.lang": "导出为JPEG...",
     "list": [
       {
         "path": "darwin|menus|menu|file|file.export-diagram-as",
@@ -10353,7 +10281,7 @@
   },
   "file.export-diagram-as.svg": {
     "text": "SVG...",
-    "text.lang": "SVG...",
+    "text.lang": "导出为SVG...",
     "list": [
       {
         "path": "darwin|menus|menu|file|file.export-diagram-as",
@@ -10977,7 +10905,7 @@
   },
   "edit.open-sub-diagram": {
     "text": "Open Sub-Diagram",
-    "text.lang": "Open Sub-Diagram",
+    "text.lang": "打开子图",
     "list": [
       {
         "path": "darwin|menus|menu|edit",
@@ -11364,6 +11292,42 @@
   "format.show-shadow": {
     "text": "Show Shadow",
     "text.lang": "显示阴影",
+    "list": [
+      {
+        "path": "darwin|menus|menu|format",
+        "type": "darwin",
+        "labelType": "label"
+      },
+      {
+        "path": "darwin|menus|context-menu|diagram-canvas|format",
+        "type": "darwin",
+        "labelType": "label"
+      },
+      {
+        "path": "linux|menus|menu|format",
+        "type": "linux",
+        "labelType": "label"
+      },
+      {
+        "path": "linux|menus|context-menu|diagram-canvas|format",
+        "type": "linux",
+        "labelType": "label"
+      },
+      {
+        "path": "win32|menus|menu|format",
+        "type": "win32",
+        "labelType": "label"
+      },
+      {
+        "path": "win32|menus|context-menu|diagram-canvas|format",
+        "type": "win32",
+        "labelType": "label"
+      }
+    ]
+  },
+  "format.inherit-style": {
+    "text": "Inherit Style",
+    "text.lang": "继承样式",
     "list": [
       {
         "path": "darwin|menus|menu|format",
@@ -12217,27 +12181,6 @@
       }
     ]
   },
-  "help.request-feature": {
-    "text": "Request Feature...",
-    "text.lang": "求功能...",
-    "list": [
-      {
-        "path": "darwin|menus|menu|help",
-        "type": "darwin",
-        "labelType": "label"
-      },
-      {
-        "path": "linux|menus|menu|help",
-        "type": "linux",
-        "labelType": "label"
-      },
-      {
-        "path": "win32|menus|menu|help",
-        "type": "win32",
-        "labelType": "label"
-      }
-    ]
-  },
   "view.rename-diagram": {
     "text": "Rename",
     "text.lang": "重命名",
@@ -12324,7 +12267,7 @@
   },
   "explorer.expand-all": {
     "text": "Expand All",
-    "text.lang": "Expand All",
+    "text.lang": "全部展开",
     "list": [
       {
         "path": "darwin|menus|context-menu|model-explorer-settings",
@@ -12345,7 +12288,7 @@
   },
   "explorer.collapse-all": {
     "text": "Collapse All",
-    "text.lang": "Collapse All",
+    "text.lang": "全部折叠",
     "list": [
       {
         "path": "darwin|menus|context-menu|model-explorer-settings",
@@ -12366,7 +12309,7 @@
   },
   "format.linestyle.Oblique": {
     "text": "Oblique",
-    "text.lang": "Oblique",
+    "text.lang": "斜线",
     "list": [
       {
         "path": "linux|menus|context-menu|diagram-canvas|format|format.linestyle",
@@ -12394,8 +12337,7 @@
     "text": "Auto load working file",
     "text.lang": "自动重载",
     "description": "Load the latest working file automatically when app launch",
-    "description.lang": "Load the latest working file automatically when app launch",
-    "descriptionLang.lang": "程序启动的时候自动加载最后打开的文件。"
+    "description.lang": "程序启动的时候自动加载最后打开的文件。"
   },
   "general.auto-backup": {
     "path": "default|preferences|schema",
@@ -12404,8 +12346,7 @@
     "text": "Auto backup",
     "text.lang": "自动保存",
     "description": "Backup working model automatically",
-    "description.lang": "Backup working model automatically",
-    "descriptionLang.lang": "自动保存打开的模型。"
+    "description.lang": "自动保存打开的模型。"
   },
   "theme": {
     "path": "default|preferences|schema",
@@ -12421,8 +12362,7 @@
     "text": "Default Theme",
     "text.lang": "默认主题",
     "description": "Default theme of UI.",
-    "description.lang": "Default theme of UI.",
-    "descriptionLang.lang": "用户界面的默认主题。"
+    "description.lang": "用户界面的默认主题。"
   },
   "theme.default.dark": {
     "path": "default|preferences|schema|options",
@@ -12445,8 +12385,7 @@
     "text": "Font Face",
     "text.lang": "字体",
     "description": "Default font face of view elements.",
-    "description.lang": "Default font face of view elements.",
-    "descriptionLang.lang": "视图中元素的默认字体。"
+    "description.lang": "视图中元素的默认字体。"
   },
   "view.fontSize": {
     "path": "default|preferences|schema",
@@ -12455,8 +12394,7 @@
     "text": "Font Size",
     "text.lang": "字体大小",
     "description": "Default font size of view elements.",
-    "description.lang": "Default font size of view elements.",
-    "descriptionLang.lang": "视图中元素的默认字体大小。"
+    "description.lang": "视图中元素的默认字体大小。"
   },
   "view.fontSize.8": {
     "path": "default|preferences|schema|options",
@@ -12549,8 +12487,7 @@
     "text": "Fill Color",
     "text.lang": "填充颜色",
     "description": "Default fill color of view elements.",
-    "description.lang": "Default fill color of view elements.",
-    "descriptionLang.lang": "视图中元素的默认填充颜色。"
+    "description.lang": "视图中元素的默认填充颜色。"
   },
   "view.lineColor": {
     "path": "default|preferences|schema",
@@ -12559,8 +12496,7 @@
     "text": "Line Color",
     "text.lang": "线条颜色",
     "description": "Default line color of view elements.",
-    "description.lang": "Default line color of view elements.",
-    "descriptionLang.lang": "视图中元素的默认线条颜色。"
+    "description.lang": "视图中元素的默认线条颜色。"
   },
   "view.fontColor": {
     "path": "default|preferences|schema",
@@ -12569,8 +12505,7 @@
     "text": "Font Color",
     "text.lang": "字体颜色",
     "description": "Default font color of view elements.",
-    "description.lang": "Default font color of view elements.",
-    "descriptionLang.lang": "视图中元素的默认字体颜色。"
+    "description.lang": "视图中元素的默认字体颜色。"
   },
   "view.lineStyle": {
     "path": "default|preferences|schema",
@@ -12579,8 +12514,7 @@
     "text": "Line Style",
     "text.lang": "线条风格",
     "description": "Default line style of edge-type view elements.",
-    "description.lang": "Default line style of edge-type view elements.",
-    "descriptionLang.lang": "视图中元素的默认线条风格。"
+    "description.lang": "视图中元素的默认线条风格。"
   },
   "view.lineStyle.0": {
     "path": "default|preferences|schema|options",
@@ -12617,8 +12551,7 @@
     "text": "Show Shadow",
     "text.lang": "显示阴影",
     "description": "Default showing shadow of view elements.",
-    "description.lang": "Default showing shadow of view elements.",
-    "descriptionLang.lang": "视图中元素默认的阴影显示。"
+    "description.lang": "视图中元素默认的阴影显示。"
   },
   "diagramEditor": {
     "path": "default|preferences|schema",
@@ -12634,8 +12567,7 @@
     "text": "Show Grid",
     "text.lang": "显示网格",
     "description": "Show grid on diagram editor.",
-    "description.lang": "Show grid on diagram editor.",
-    "descriptionLang.lang": "在图表编辑器里显示网格。"
+    "description.lang": "在图表编辑器里显示网格。"
   },
   "diagramEditor.snapToGrid": {
     "path": "default|preferences|schema",
@@ -12644,8 +12576,7 @@
     "text": "Snap to Grid",
     "text.lang": "对齐到网格",
     "description": "Snap to grid on diagram editor.",
-    "description.lang": "Snap to grid on diagram editor.",
-    "descriptionLang.lang": "图表编辑器里的元素是否和网格对齐。"
+    "description.lang": "图表编辑器里的元素是否和网格对齐。"
   },
   "diagramEditor.gridSize": {
     "path": "default|preferences|schema",
@@ -12654,8 +12585,7 @@
     "text": "Grid Size",
     "text.lang": "网格大小",
     "description": "Default size (width and height) of grid.",
-    "description.lang": "Default size (width and height) of grid.",
-    "descriptionLang.lang": "网格默认的长宽大小。"
+    "description.lang": "网格默认的长宽大小。"
   },
   "diagramEditor.gridSize.2": {
     "path": "default|preferences|schema|options",
@@ -12734,8 +12664,7 @@
     "text": "Background Color",
     "text.lang": "背景颜色",
     "description": "Background color of diagram editor.",
-    "description.lang": "Background color of diagram editor.",
-    "descriptionLang.lang": "图表编辑器的背景颜色。"
+    "description.lang": "图表编辑器的背景颜色。"
   },
   "validation": {
     "path": "default|preferences|schema",
@@ -12751,8 +12680,7 @@
     "text": "Validate Model",
     "text.lang": "验证模型",
     "description": "Validate model asynchronously when opening or saving files.",
-    "description.lang": "Validate model asynchronously when opening or saving files.",
-    "descriptionLang.lang": "打开和保存文件的时候验证模型。"
+    "description.lang": "打开和保存文件的时候验证模型。"
   },
   "checkUpdate": {
     "path": "default|preferences|schema",
@@ -12768,7 +12696,6 @@
     "text": "Check Updates on Start",
     "text.lang": "启动时检查更新",
     "description": "Check updates on application start.",
-    "description.lang": "Check updates on application start.",
-    "descriptionLang.lang": "在程序启动时检查更新。"
+    "description.lang": "在程序启动时检查更新。"
   }
 }

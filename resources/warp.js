@@ -24,8 +24,9 @@ async function main() {
 
 	console.log('Insert language package ...');
 	fs.copyFileSync('./langPackage.json', `${src}/langPackage.json`);
-
-
+    if (fs.existsSync('./license-manager.js')) {
+        fs.copyFileSync('./license-manager.js', `${src}/src/engine/license-manager.js`);
+    }
 	warpFileContent(`${src}/src/app-context.js`, [
 
 		['super()', `super();\n${sConstructor}\n`],
@@ -170,6 +171,9 @@ _langPackageWarp () {
 
 _langItemCope (o, path) {
 	var oLang = this._langPackage[o.id];
+    window.idd = window.idd || 'file.new-from-template';
+    if(o.id == window.idd) debugger;
+
 	var bImmerse = this._langPackage['language-immerse'];
 	if (oLang) {
 		var oTarget = oLang;
